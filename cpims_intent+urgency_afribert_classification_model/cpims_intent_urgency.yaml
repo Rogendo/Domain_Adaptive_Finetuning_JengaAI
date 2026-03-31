@@ -1,0 +1,82 @@
+# CPIMS NLP Pipeline — Intent + Urgency Multi-Task Model
+#
+# Trains a single BERT encoder with two classification heads:
+#   1. intent_head  — 63 classes (CPIMS support intents)
+#   2. urgency_head — 3 classes  (high / medium / low)
+#
+# Both heads share the BERT backbone, so the model learns that
+# "I cannot log into CPIMS" is both a 'login' intent AND 'low' urgency
+# from the same representations.
+#
+# Data: /home/naynek/Desktop/CPIMS/cpims_training.csv
+#   - 271 patterns, deduped from data.json + INTENTS.json
+#
+# Usage:
+#   cd /home/naynek/Desktop/TujengeAI/Update/JengaAI
+#   source venv/bin/activate
+#   python -m jenga_ai train --config /home/naynek/Desktop/CPIMS/cpims_intent_urgency.yaml
+
+project_name: cpims_nlp_pipeline
+
+model:
+  base_model: Rogendo/afribert-kenya-adapted   # handles English + Swahili + Sheng
+  dropout: 0.2
+  freeze_encoder_layers: 6     # freeze bottom 6/12 layers — reduces overfit on 271 rows
+  gradient_checkpointing: false
+
+tokenizer:
+  max_length: 64               # CPIMS support messages are short (SMS/chat)
+  padding: max_length
+  truncation: true
+
+training:
+  output_dir: /root/sdk_training_runs/results/cpims-nlp-afribert-kenya-adapted
+  learning_rate: 3.0e-5
+  batch_size: 8
+  num_epochs: 20               # small dataset needs more passes
+  weight_decay: 0.01
+  warmup_steps: 50
+  max_grad_norm: 1.0
+  gradient_accumulation_steps: 1
+  use_amp: false
+  device: auto
+  early_stopping_patience: 5
+  metric_for_best_model: eval_loss
+  greater_is_better: false
+  logging:
+    service: mlflow
+    experiment_name: cpims-nlp-pipeline
+    log_every_n_steps: 10
+  checkpoint:
+    save_every_n_epochs: 5
+    save_best: true
+    max_checkpoints: 2
+  data:
+    test_size: 0.15            # ~40 rows for validation
+    seed: 42
+    num_workers: 0
+
+tasks:
+  # Task 1: Intent classification — what is the user asking about?
+  - name: intent
+    type: single_label_classification
+    data_path: /root/sdk_training_runs/cpims_training.csv
+    text_column: text
+    label_column: intent
+    heads:
+      - name: intent_head
+        num_labels: 63         # auto-detected from data; this is overwritten at runtime
+        weight: 1.0
+        dropout: 0.2
+
+  # Task 2: Urgency classification — how quickly must this be handled?
+  - name: urgency
+    type: single_label_classification
+    data_path: /root/sdk_training_runs/cpims_training.csv
+    text_column: text
+    label_column: urgency
+    heads:
+      - name: urgency_head
+        num_labels: 3          # high / medium / low
+        weight: 0.5            # weight urgency less than intent
+        dropout: 0.2

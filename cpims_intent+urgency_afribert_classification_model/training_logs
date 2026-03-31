@@ -1,0 +1,517 @@
+Connection to 194.68.245.205 closed.
+naynek@naynek-HP-EliteBook-840-G3:~/Desktop/CPIMS/SYNTHETIC DATA/generated/mlm$ ssh root@194.68.245.205 -p 22105 -i ~/.ssh/runpod
+Welcome to Ubuntu 22.04.5 LTS (GNU/Linux 6.8.0-60-generic x86_64)
+
+ * Documentation:  https://help.ubuntu.com
+ * Management:     https://landscape.canonical.com
+ * Support:        https://ubuntu.com/pro
+
+This system has been minimized by removing packages and content that are
+not required on a system that users do not log into.
+
+To restore this content, you can run the 'unminimize' command.
+Last login: Mon Mar 30 00:51:53 2026 from 196.96.172.176
+ ______                 ______            _
+(_____ \               (_____ \          | |
+ _____) ) _   _  ____   _____) )___    __| |
+|  __  / | | | ||  _ \ |  ____// _ \  / _  |
+| |  \ \ | |_| || | | || |    | |_| |( (_| |
+|_|   |_||____/ |_| |_||_|     \___/  \____|
+
+For detailed documentation and guides, please visit:
+https://docs.runpod.io/ and https://blog.runpod.io/
+
+
+root@5fbf0a728f9a:~# cd sdk_training_runs/
+root@5fbf0a728f9a:~/sdk_training_runs# ll
+total 808
+drwxr-xr-x 3 root root   4096 Mar 30 01:07 ./
+drwx------ 1 root root   4096 Mar 30 00:55 ../
+-rw-r--r-- 1 root root   2606 Mar 30 00:52 cpims_intent_urgency.yaml
+-rw-r--r-- 1 root root  12288 Mar 30 00:45 .cpims_intent_urgency.yaml.swp
+-rw-r--r-- 1 root root 147719 Mar 30 01:07 cpims_training_augmented.csv
+-rw-rw-rw- 1 root root  21049 Mar 30 00:38 cpims_training.csv
+-rw-r--r-- 1 root root 626688 Mar 30 00:56 mlflow.db
+drwxr-xr-x 3 root root     54 Mar 30 00:55 results/
+root@5fbf0a728f9a:~/sdk_training_runs# mv cpims_training.csv cpims_trainingv1.csv
+root@5fbf0a728f9a:~/sdk_training_runs# ll
+total 808
+drwxr-xr-x 3 root root   4096 Mar 30 01:08 ./
+drwx------ 1 root root   4096 Mar 30 00:55 ../
+-rw-r--r-- 1 root root   2606 Mar 30 00:52 cpims_intent_urgency.yaml
+-rw-r--r-- 1 root root  12288 Mar 30 00:45 .cpims_intent_urgency.yaml.swp
+-rw-r--r-- 1 root root 147719 Mar 30 01:07 cpims_training_augmented.csv
+-rw-rw-rw- 1 root root  21049 Mar 30 00:38 cpims_trainingv1.csv
+-rw-r--r-- 1 root root 626688 Mar 30 00:56 mlflow.db
+drwxr-xr-x 3 root root     54 Mar 30 00:55 results/
+root@5fbf0a728f9a:~/sdk_training_runs# mv cpims_training_augmented.csv cpims_training.csv
+root@5fbf0a728f9a:~/sdk_training_runs# ll
+total 804
+drwxr-xr-x 3 root root    191 Mar 30 01:09 ./
+drwx------ 1 root root   4096 Mar 30 00:55 ../
+-rw-r--r-- 1 root root   2606 Mar 30 00:52 cpims_intent_urgency.yaml
+-rw-r--r-- 1 root root  12288 Mar 30 00:45 .cpims_intent_urgency.yaml.swp
+-rw-r--r-- 1 root root 147719 Mar 30 01:07 cpims_training.csv
+-rw-rw-rw- 1 root root  21049 Mar 30 00:38 cpims_trainingv1.csv
+-rw-r--r-- 1 root root 626688 Mar 30 00:56 mlflow.db
+drwxr-xr-x 3 root root     54 Mar 30 00:55 results/
+root@5fbf0a728f9a:~/sdk_training_runs# sourc ../JengaAI/venv/bin/activate
+-bash: sourc: command not found
+root@5fbf0a728f9a:~/sdk_training_runs# source ../JengaAI/venv/bin/activate
+(venv) root@5fbf0a728f9a:~/sdk_training_runs# python -m jenga_ai train --cofig cpims_intent_urgency.yaml 
+usage: jenga-ai train [-h] --config CONFIG [--output-dir OUTPUT_DIR] [--device DEVICE]
+jenga-ai train: error: the following arguments are required: --config
+(venv) root@5fbf0a728f9a:~/sdk_training_runs# python -m jenga_ai train --config cpims_intent_urgency.yaml 
+2026-03-30 01:11:15 [INFO] jenga_ai: Loading config from cpims_intent_urgency.yaml
+2026-03-30 01:11:15 [INFO] jenga_ai: Project: cpims_nlp_pipeline
+2026-03-30 01:11:15 [INFO] jenga_ai: Tasks: ['intent', 'urgency']
+2026-03-30 01:11:15 [INFO] jenga_ai: Model: Rogendo/afribert-kenya-adapted
+2026-03-30 01:11:15 [INFO] jenga_ai: Output: /root/sdk_training_runs/results/cpims-nlp-afribert-kenya-adapted
+2026-03-30 01:11:16 [INFO] httpx: HTTP Request: HEAD https://huggingface.co/Rogendo/afribert-kenya-adapted/resolve/main/config.json "HTTP/1.1 200 OK"
+2026-03-30 01:11:16 [INFO] httpx: HTTP Request: HEAD https://huggingface.co/Rogendo/afribert-kenya-adapted/resolve/main/tokenizer_config.json "HTTP/1.1 200 OK"
+2026-03-30 01:11:16 [INFO] httpx: HTTP Request: GET https://huggingface.co/api/models/Rogendo/afribert-kenya-adapted/tree/main/additional_chat_templates?recursive=false&expand=false "HTTP/1.1 404 Not Found"
+2026-03-30 01:11:16 [INFO] httpx: HTTP Request: GET https://huggingface.co/api/models/Rogendo/afribert-kenya-adapted/tree/main?recursive=true&expand=false "HTTP/1.1 200 OK"
+2026-03-30 01:11:17 [INFO] jenga_ai.data.processor: Processing data for task: intent (type: TaskType.SINGLE_LABEL_CLASSIFICATION)
+2026-03-30 01:11:17 [INFO] jenga_ai.data.processor:   Loaded 1465 rows from cpims_training.csv
+2026-03-30 01:11:17 [INFO] jenga_ai.data.processor:   Labels discovered for 'intent': 63 ['ActivateDeactivate-account', 'AddStaffTeacher', 'AddmissionDelays', 'Admission', 'ArrestedChildren', 'CPIMSstatusreport', 'CPMISaccess', 'CPVs', 'ChallengesOfStaff', 'ChildDischarge']
+Map: 100%|██████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████| 1465/1465 [00:00<00:00, 16388.41 examples/s]
+2026-03-30 01:11:18 [INFO] jenga_ai.data.processor:   Task 'intent': 1245 train, 220 eval samples
+2026-03-30 01:11:18 [INFO] jenga_ai.data.processor: Processing data for task: urgency (type: TaskType.SINGLE_LABEL_CLASSIFICATION)
+2026-03-30 01:11:18 [INFO] jenga_ai.data.processor:   Loaded 1465 rows from cpims_training.csv
+2026-03-30 01:11:18 [INFO] jenga_ai.data.processor:   Labels discovered for 'urgency': 3 ['high', 'low', 'medium']
+Map: 100%|██████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████| 1465/1465 [00:00<00:00, 15025.77 examples/s]
+2026-03-30 01:11:18 [INFO] jenga_ai.data.processor:   Task 'urgency': 1245 train, 220 eval samples
+2026-03-30 01:11:18 [INFO] httpx: HTTP Request: HEAD https://huggingface.co/Rogendo/afribert-kenya-adapted/resolve/main/config.json "HTTP/1.1 200 OK"
+2026-03-30 01:11:18 [INFO] jenga_ai.tasks.registry: Creating task 'intent' of type 'single_label_classification' with hidden_size=768
+2026-03-30 01:11:18 [INFO] jenga_ai.tasks.registry: Creating task 'urgency' of type 'single_label_classification' with hidden_size=768
+2026-03-30 01:11:19 [INFO] httpx: HTTP Request: HEAD https://huggingface.co/Rogendo/afribert-kenya-adapted/resolve/main/config.json "HTTP/1.1 200 OK"
+2026-03-30 01:11:19 [INFO] httpx: HTTP Request: HEAD https://huggingface.co/Rogendo/afribert-kenya-adapted/resolve/main/config.json "HTTP/1.1 200 OK"
+Loading weights: 100%|███████████████████████████████████████████████████████████████████████████| 165/165 [00:00<00:00, 1702.27it/s, Materializing param=encoder.layer.9.output.dense.weight]
+XLMRobertaModel LOAD REPORT from: Rogendo/afribert-kenya-adapted
+Key                       | Status     | 
+--------------------------+------------+-
+lm_head.bias              | UNEXPECTED | 
+lm_head.dense.weight      | UNEXPECTED | 
+lm_head.dense.bias        | UNEXPECTED | 
+lm_head.layer_norm.weight | UNEXPECTED | 
+lm_head.layer_norm.bias   | UNEXPECTED | 
+pooler.dense.weight       | MISSING    | 
+pooler.dense.bias         | MISSING    | 
+
+Notes:
+- UNEXPECTED	:can be ignored when loading from different task/architecture; not ok if you expect identical arch.
+- MISSING	:those params were newly initialized because missing from the checkpoint. Consider training on your downstream task.
+2026-03-30 01:11:19 [INFO] jenga_ai.core.model: Froze 6 encoder layers
+2026-03-30 01:11:19 [INFO] jenga_ai: Parameters: 125,681,730 total, 36,080,706 trainable
+2026-03-30 01:11:19 [INFO] jenga_ai.utils.device: Using CUDA device: NVIDIA A40
+2026/03/30 01:11:21 INFO alembic.runtime.plugins: setup plugin alembic.autogenerate.schemas
+2026/03/30 01:11:21 INFO alembic.runtime.plugins: setup plugin alembic.autogenerate.tables
+2026/03/30 01:11:21 INFO alembic.runtime.plugins: setup plugin alembic.autogenerate.types
+2026/03/30 01:11:21 INFO alembic.runtime.plugins: setup plugin alembic.autogenerate.constraints
+2026/03/30 01:11:21 INFO alembic.runtime.plugins: setup plugin alembic.autogenerate.defaults
+2026/03/30 01:11:21 INFO alembic.runtime.plugins: setup plugin alembic.autogenerate.comments
+2026/03/30 01:11:21 INFO alembic.runtime.migration: Context impl SQLiteImpl.
+2026/03/30 01:11:21 INFO alembic.runtime.migration: Will assume non-transactional DDL.
+2026-03-30 01:11:21 [INFO] jenga_ai.training.callbacks: MLflow experiment: cpims-nlp-pipeline
+2026-03-30 01:11:21 [INFO] jenga_ai.training.trainer: Starting training: 20 epochs, 6240 total steps, device=cuda
+Training:   5%|█████▉                                                                                                                | 312/6240 [00:15<04:55, 20.06it/s, epoch=1, loss=0.2960]2026-03-30 01:11:37 [INFO] jenga_ai.training.trainer: Epoch 1/20 - Metrics: {'intent_intent_head_accuracy': 0.55, 'intent_intent_head_precision': 0.4250507416081186, 'intent_intent_head_recall': 0.55, 'intent_intent_head_f1': 0.4671104784222407, 'urgency_urgency_head_accuracy': 0.740909090909091, 'urgency_urgency_head_precision': 0.7635773317591499, 'urgency_urgency_head_recall': 0.740909090909091, 'urgency_urgency_head_f1': 0.7275196634351564, 'eval_loss': 1.1218514355963893, 'train_loss_avg': 1.5669699331076863}
+2026-03-30 01:11:37 [INFO] jenga_ai.training.callbacks: Metric 'eval_loss' improved to 1.121851
+2026-03-30 01:11:38 [INFO] jenga_ai.training.callbacks: Checkpoint saved (best): /root/sdk_training_runs/results/cpims-nlp-afribert-kenya-adapted/checkpoints/best
+Training:  10%|███████████▊                                                                                                          | 624/6240 [00:31<04:33, 20.51it/s, epoch=2, loss=0.0162]2026-03-30 01:11:53 [INFO] jenga_ai.training.trainer: Epoch 2/20 - Metrics: {'intent_intent_head_accuracy': 0.65, 'intent_intent_head_precision': 0.5887510599366268, 'intent_intent_head_recall': 0.65, 'intent_intent_head_f1': 0.5915113998834929, 'urgency_urgency_head_accuracy': 0.8272727272727273, 'urgency_urgency_head_precision': 0.8278694479036944, 'urgency_urgency_head_recall': 0.8272727272727273, 'urgency_urgency_head_f1': 0.8224624060150376, 'eval_loss': 0.8544923193154058, 'train_loss_avg': 0.9890502918487749}
+2026-03-30 01:11:54 [INFO] jenga_ai.training.callbacks: Metric 'eval_loss' improved to 0.854492
+2026-03-30 01:11:54 [INFO] jenga_ai.training.callbacks: Checkpoint saved (best): /root/sdk_training_runs/results/cpims-nlp-afribert-kenya-adapted/checkpoints/best
+Training:  15%|█████████████████▋                                                                                                    | 936/6240 [00:46<04:33, 19.41it/s, epoch=3, loss=0.1098]2026-03-30 01:12:08 [INFO] jenga_ai.training.trainer: Epoch 3/20 - Metrics: {'intent_intent_head_accuracy': 0.6727272727272727, 'intent_intent_head_precision': 0.6022917486553849, 'intent_intent_head_recall': 0.6727272727272727, 'intent_intent_head_f1': 0.6261639903919299, 'urgency_urgency_head_accuracy': 0.8454545454545455, 'urgency_urgency_head_precision': 0.8577827143616618, 'urgency_urgency_head_recall': 0.8454545454545455, 'urgency_urgency_head_f1': 0.8476363636363637, 'eval_loss': 0.8140602318370449, 'train_loss_avg': 0.6870673443429555}
+2026-03-30 01:12:08 [INFO] jenga_ai.training.callbacks: Metric 'eval_loss' improved to 0.814060
+2026-03-30 01:12:09 [INFO] jenga_ai.training.callbacks: Checkpoint saved (best): /root/sdk_training_runs/results/cpims-nlp-afribert-kenya-adapted/checkpoints/best
+Training:  20%|███████████████████████▍                                                                                             | 1248/6240 [01:02<03:48, 21.84it/s, epoch=4, loss=0.1928]2026-03-30 01:12:25 [INFO] jenga_ai.training.trainer: Epoch 4/20 - Metrics: {'intent_intent_head_accuracy': 0.7181818181818181, 'intent_intent_head_precision': 0.6385637781758471, 'intent_intent_head_recall': 0.7181818181818181, 'intent_intent_head_f1': 0.664998546813914, 'urgency_urgency_head_accuracy': 0.8227272727272728, 'urgency_urgency_head_precision': 0.8186042400168517, 'urgency_urgency_head_recall': 0.8227272727272728, 'urgency_urgency_head_f1': 0.8097703601594521, 'eval_loss': 0.8455575197336397, 'train_loss_avg': 0.49912027614668775}
+2026-03-30 01:12:25 [INFO] jenga_ai.training.callbacks: Metric 'eval_loss' did not improve. Patience: 1/5
+Training:  25%|█████████████████████████████▎                                                                                       | 1560/6240 [01:18<02:58, 26.28it/s, epoch=5, loss=0.2062]2026-03-30 01:12:40 [INFO] jenga_ai.training.trainer: Epoch 5/20 - Metrics: {'intent_intent_head_accuracy': 0.7, 'intent_intent_head_precision': 0.6285013200682572, 'intent_intent_head_recall': 0.7, 'intent_intent_head_f1': 0.6545461708056585, 'urgency_urgency_head_accuracy': 0.8227272727272728, 'urgency_urgency_head_precision': 0.8201680337206654, 'urgency_urgency_head_recall': 0.8227272727272728, 'urgency_urgency_head_f1': 0.8142728303442589, 'eval_loss': 0.7998277176687095, 'train_loss_avg': 0.3567527072613862}
+2026-03-30 01:12:40 [INFO] jenga_ai.training.callbacks: Metric 'eval_loss' improved to 0.799828
+2026-03-30 01:12:41 [INFO] jenga_ai.training.callbacks: Checkpoint saved (epoch 4): /root/sdk_training_runs/results/cpims-nlp-afribert-kenya-adapted/checkpoints/epoch_4
+2026-03-30 01:12:41 [INFO] jenga_ai.training.callbacks: Checkpoint saved (best): /root/sdk_training_runs/results/cpims-nlp-afribert-kenya-adapted/checkpoints/best
+Training:  30%|███████████████████████████████████                                                                                  | 1872/6240 [01:34<03:25, 21.23it/s, epoch=6, loss=0.0389]2026-03-30 01:12:56 [INFO] jenga_ai.training.trainer: Epoch 6/20 - Metrics: {'intent_intent_head_accuracy': 0.7454545454545455, 'intent_intent_head_precision': 0.6698425015269935, 'intent_intent_head_recall': 0.7454545454545455, 'intent_intent_head_f1': 0.6994488737643818, 'urgency_urgency_head_accuracy': 0.8454545454545455, 'urgency_urgency_head_precision': 0.8463657437896788, 'urgency_urgency_head_recall': 0.8454545454545455, 'urgency_urgency_head_f1': 0.8422231298868011, 'eval_loss': 0.7822482121742463, 'train_loss_avg': 0.25395077841098196}
+2026-03-30 01:12:56 [INFO] jenga_ai.training.callbacks: Metric 'eval_loss' improved to 0.782248
+2026-03-30 01:12:57 [INFO] jenga_ai.training.callbacks: Checkpoint saved (best): /root/sdk_training_runs/results/cpims-nlp-afribert-kenya-adapted/checkpoints/best
+Training:  35%|████████████████████████████████████████▉                                                                            | 2184/6240 [01:50<02:51, 23.68it/s, epoch=7, loss=0.0011]2026-03-30 01:13:12 [INFO] jenga_ai.training.trainer: Epoch 7/20 - Metrics: {'intent_intent_head_accuracy': 0.7136363636363636, 'intent_intent_head_precision': 0.6593717223062143, 'intent_intent_head_recall': 0.7136363636363636, 'intent_intent_head_f1': 0.6797398051522806, 'urgency_urgency_head_accuracy': 0.8227272727272728, 'urgency_urgency_head_precision': 0.8210031126202605, 'urgency_urgency_head_recall': 0.8227272727272728, 'urgency_urgency_head_f1': 0.8162026653708615, 'eval_loss': 0.830323778176015, 'train_loss_avg': 0.18877312625297166}
+2026-03-30 01:13:12 [INFO] jenga_ai.training.callbacks: Metric 'eval_loss' did not improve. Patience: 1/5
+Training:  40%|██████████████████████████████████████████████▊                                                                      | 2496/6240 [02:04<02:50, 21.95it/s, epoch=8, loss=0.0024]2026-03-30 01:13:26 [INFO] jenga_ai.training.trainer: Epoch 8/20 - Metrics: {'intent_intent_head_accuracy': 0.7454545454545455, 'intent_intent_head_precision': 0.6827572679845407, 'intent_intent_head_recall': 0.7454545454545455, 'intent_intent_head_f1': 0.7064821282255191, 'urgency_urgency_head_accuracy': 0.8090909090909091, 'urgency_urgency_head_precision': 0.8135308804459328, 'urgency_urgency_head_recall': 0.8090909090909091, 'urgency_urgency_head_f1': 0.802098202098202, 'eval_loss': 0.838129094643851, 'train_loss_avg': 0.13924678147024958}
+2026-03-30 01:13:26 [INFO] jenga_ai.training.callbacks: Metric 'eval_loss' did not improve. Patience: 2/5
+Training:  45%|████████████████████████████████████████████████████▋                                                                | 2808/6240 [02:19<02:27, 23.32it/s, epoch=9, loss=0.0034]2026-03-30 01:13:41 [INFO] jenga_ai.training.trainer: Epoch 9/20 - Metrics: {'intent_intent_head_accuracy': 0.7363636363636363, 'intent_intent_head_precision': 0.6843741830065359, 'intent_intent_head_recall': 0.7363636363636363, 'intent_intent_head_f1': 0.6976018802615688, 'urgency_urgency_head_accuracy': 0.8318181818181818, 'urgency_urgency_head_precision': 0.8300149199979421, 'urgency_urgency_head_recall': 0.8318181818181818, 'urgency_urgency_head_f1': 0.8252463401063247, 'eval_loss': 0.8620424795247216, 'train_loss_avg': 0.10314661558144368}
+2026-03-30 01:13:41 [INFO] jenga_ai.training.callbacks: Metric 'eval_loss' did not improve. Patience: 3/5
+Training:  50%|██████████████████████████████████████████████████████████                                                          | 3120/6240 [02:34<02:40, 19.49it/s, epoch=10, loss=0.0014]2026-03-30 01:13:56 [INFO] jenga_ai.training.trainer: Epoch 10/20 - Metrics: {'intent_intent_head_accuracy': 0.7454545454545455, 'intent_intent_head_precision': 0.6782910657631753, 'intent_intent_head_recall': 0.7454545454545455, 'intent_intent_head_f1': 0.7015002941362357, 'urgency_urgency_head_accuracy': 0.8181818181818182, 'urgency_urgency_head_precision': 0.8160039133052378, 'urgency_urgency_head_recall': 0.8181818181818182, 'urgency_urgency_head_f1': 0.8100824099395414, 'eval_loss': 0.9260439159677064, 'train_loss_avg': 0.07739157091726576}
+2026-03-30 01:13:56 [INFO] jenga_ai.training.callbacks: Metric 'eval_loss' did not improve. Patience: 4/5
+2026-03-30 01:13:57 [INFO] jenga_ai.training.callbacks: Checkpoint saved (epoch 9): /root/sdk_training_runs/results/cpims-nlp-afribert-kenya-adapted/checkpoints/epoch_9
+Training:  55%|███████████████████████████████████████████████████████████████▊                                                    | 3432/6240 [02:50<02:09, 21.67it/s, epoch=11, loss=0.0013]2026-03-30 01:14:12 [INFO] jenga_ai.training.trainer: Epoch 11/20 - Metrics: {'intent_intent_head_accuracy': 0.75, 'intent_intent_head_precision': 0.7070047480018786, 'intent_intent_head_recall': 0.75, 'intent_intent_head_f1': 0.7195866211710369, 'urgency_urgency_head_accuracy': 0.8272727272727273, 'urgency_urgency_head_precision': 0.8264541387024609, 'urgency_urgency_head_recall': 0.8272727272727273, 'urgency_urgency_head_f1': 0.8216503066475938, 'eval_loss': 0.8927640643918754, 'train_loss_avg': 0.06740335445255578}
+2026-03-30 01:14:12 [INFO] jenga_ai.training.callbacks: Metric 'eval_loss' did not improve. Patience: 5/5
+2026-03-30 01:14:12 [INFO] jenga_ai.training.callbacks: Early stopping triggered
+2026-03-30 01:14:12 [INFO] jenga_ai.training.trainer: Training stopped early
+Training:  55%|███████████████████████████████████████████████████████████████▊                                                    | 3432/6240 [02:51<02:20, 20.02it/s, epoch=11, loss=0.0013]
+2026-03-30 01:14:13 [INFO] jenga_ai.training.callbacks: Logger closed
+2026-03-30 01:14:13 [INFO] jenga_ai.core.model: Model saved to /root/sdk_training_runs/results/cpims-nlp-afribert-kenya-adapted
+2026-03-30 01:14:13 [INFO] jenga_ai.core.config: Config saved to /root/sdk_training_runs/results/cpims-nlp-afribert-kenya-adapted/experiment_config.yaml
+2026-03-30 01:14:13 [INFO] jenga_ai.training.trainer: Experiment config saved to /root/sdk_training_runs/results/cpims-nlp-afribert-kenya-adapted/experiment_config.yaml
+2026-03-30 01:14:13 [INFO] jenga_ai.core.config: Config saved to /root/sdk_training_runs/results/cpims-nlp-afribert-kenya-adapted/experiment_config.yaml
+2026-03-30 01:14:13 [INFO] jenga_ai: Training complete. Results saved to /root/sdk_training_runs/results/cpims-nlp-afribert-kenya-adapted
+(venv) root@5fbf0a728f9a:~/sdk_training_runs# 
+(venv) root@5fbf0a728f9a:~/sdk_training_runs# 
+(venv) root@5fbf0a728f9a:~/sdk_training_runs# 
+(venv) root@5fbf0a728f9a:~/sdk_training_runs# 
+(venv) root@5fbf0a728f9a:~/sdk_training_runs# 
+(venv) root@5fbf0a728f9a:~/sdk_training_runs# 
+(venv) root@5fbf0a728f9a:~/sdk_training_runs# 
+(venv) root@5fbf0a728f9a:~/sdk_training_runs# 
+(venv) root@5fbf0a728f9a:~/sdk_training_runs# python -m jenga_ai train --config cpims_intent_urgency.yaml 
+2026-03-30 01:18:23 [INFO] jenga_ai: Loading config from cpims_intent_urgency.yaml
+2026-03-30 01:18:23 [INFO] jenga_ai: Project: cpims_nlp_pipeline
+2026-03-30 01:18:23 [INFO] jenga_ai: Tasks: ['intent', 'urgency']
+2026-03-30 01:18:23 [INFO] jenga_ai: Model: Rogendo/afribert-kenya-adapted
+2026-03-30 01:18:23 [INFO] jenga_ai: Output: /root/sdk_training_runs/results/cpims-nlp-afribert-kenya-adapted
+2026-03-30 01:18:24 [INFO] httpx: HTTP Request: HEAD https://huggingface.co/Rogendo/afribert-kenya-adapted/resolve/main/config.json "HTTP/1.1 200 OK"
+2026-03-30 01:18:24 [INFO] httpx: HTTP Request: HEAD https://huggingface.co/Rogendo/afribert-kenya-adapted/resolve/main/tokenizer_config.json "HTTP/1.1 200 OK"
+2026-03-30 01:18:24 [INFO] httpx: HTTP Request: GET https://huggingface.co/api/models/Rogendo/afribert-kenya-adapted/tree/main/additional_chat_templates?recursive=false&expand=false "HTTP/1.1 404 Not Found"
+2026-03-30 01:18:24 [INFO] httpx: HTTP Request: GET https://huggingface.co/api/models/Rogendo/afribert-kenya-adapted/tree/main?recursive=true&expand=false "HTTP/1.1 200 OK"
+2026-03-30 01:18:25 [INFO] jenga_ai.data.processor: Processing data for task: intent (type: TaskType.SINGLE_LABEL_CLASSIFICATION)
+2026-03-30 01:18:25 [INFO] jenga_ai.data.processor:   Loaded 1465 rows from cpims_training.csv
+2026-03-30 01:18:25 [INFO] jenga_ai.data.processor:   Labels discovered for 'intent': 63 ['ActivateDeactivate-account', 'AddStaffTeacher', 'AddmissionDelays', 'Admission', 'ArrestedChildren', 'CPIMSstatusreport', 'CPMISaccess', 'CPVs', 'ChallengesOfStaff', 'ChildDischarge']
+Map: 100%|██████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████| 1465/1465 [00:00<00:00, 15949.41 examples/s]
+2026-03-30 01:18:26 [INFO] jenga_ai.data.processor:   Task 'intent': 1245 train, 220 eval samples
+2026-03-30 01:18:26 [INFO] jenga_ai.data.processor: Processing data for task: urgency (type: TaskType.SINGLE_LABEL_CLASSIFICATION)
+2026-03-30 01:18:26 [INFO] jenga_ai.data.processor:   Loaded 1465 rows from cpims_training.csv
+2026-03-30 01:18:26 [INFO] jenga_ai.data.processor:   Labels discovered for 'urgency': 3 ['high', 'low', 'medium']
+Map: 100%|██████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████| 1465/1465 [00:00<00:00, 16186.72 examples/s]
+2026-03-30 01:18:26 [INFO] jenga_ai.data.processor:   Task 'urgency': 1245 train, 220 eval samples
+2026-03-30 01:18:26 [INFO] httpx: HTTP Request: HEAD https://huggingface.co/Rogendo/afribert-kenya-adapted/resolve/main/config.json "HTTP/1.1 200 OK"
+2026-03-30 01:18:26 [INFO] jenga_ai.tasks.registry: Creating task 'intent' of type 'single_label_classification' with hidden_size=768
+2026-03-30 01:18:26 [INFO] jenga_ai.tasks.registry: Creating task 'urgency' of type 'single_label_classification' with hidden_size=768
+2026-03-30 01:18:27 [INFO] httpx: HTTP Request: HEAD https://huggingface.co/Rogendo/afribert-kenya-adapted/resolve/main/config.json "HTTP/1.1 200 OK"
+2026-03-30 01:18:27 [INFO] httpx: HTTP Request: HEAD https://huggingface.co/Rogendo/afribert-kenya-adapted/resolve/main/config.json "HTTP/1.1 200 OK"
+Loading weights: 100%|███████████████████████████████████████████████████████████████████████████| 165/165 [00:00<00:00, 1423.98it/s, Materializing param=encoder.layer.9.output.dense.weight]
+XLMRobertaModel LOAD REPORT from: Rogendo/afribert-kenya-adapted
+Key                       | Status     | 
+--------------------------+------------+-
+lm_head.dense.weight      | UNEXPECTED | 
+lm_head.layer_norm.bias   | UNEXPECTED | 
+lm_head.bias              | UNEXPECTED | 
+lm_head.dense.bias        | UNEXPECTED | 
+lm_head.layer_norm.weight | UNEXPECTED | 
+pooler.dense.bias         | MISSING    | 
+pooler.dense.weight       | MISSING    | 
+
+Notes:
+- UNEXPECTED	:can be ignored when loading from different task/architecture; not ok if you expect identical arch.
+- MISSING	:those params were newly initialized because missing from the checkpoint. Consider training on your downstream task.
+2026-03-30 01:18:27 [INFO] jenga_ai.core.model: Froze 6 encoder layers
+2026-03-30 01:18:27 [INFO] jenga_ai: Parameters: 125,681,730 total, 36,080,706 trainable
+2026-03-30 01:18:27 [INFO] jenga_ai.utils.device: Using CUDA device: NVIDIA A40
+2026/03/30 01:18:29 INFO alembic.runtime.plugins: setup plugin alembic.autogenerate.schemas
+2026/03/30 01:18:29 INFO alembic.runtime.plugins: setup plugin alembic.autogenerate.tables
+2026/03/30 01:18:29 INFO alembic.runtime.plugins: setup plugin alembic.autogenerate.types
+2026/03/30 01:18:29 INFO alembic.runtime.plugins: setup plugin alembic.autogenerate.constraints
+2026/03/30 01:18:29 INFO alembic.runtime.plugins: setup plugin alembic.autogenerate.defaults
+2026/03/30 01:18:29 INFO alembic.runtime.plugins: setup plugin alembic.autogenerate.comments
+2026/03/30 01:18:29 INFO alembic.runtime.migration: Context impl SQLiteImpl.
+2026/03/30 01:18:29 INFO alembic.runtime.migration: Will assume non-transactional DDL.
+2026-03-30 01:18:29 [INFO] jenga_ai.training.callbacks: MLflow experiment: cpims-nlp-pipeline
+2026-03-30 01:18:29 [INFO] jenga_ai.training.trainer: Starting training: 20 epochs, 6240 total steps, device=cuda
+Training:   5%|█████▉                                                                                                                | 312/6240 [00:14<04:53, 20.20it/s, epoch=1, loss=0.2643]2026-03-30 01:18:44 [INFO] jenga_ai.training.trainer: Epoch 1/20 - Metrics: {'intent_intent_head_accuracy': 0.5681818181818182, 'intent_intent_head_precision': 0.43864439726977517, 'intent_intent_head_recall': 0.5681818181818182, 'intent_intent_head_f1': 0.4846467926013381, 'urgency_urgency_head_accuracy': 0.759090909090909, 'urgency_urgency_head_precision': 0.7273884122240432, 'urgency_urgency_head_recall': 0.759090909090909, 'urgency_urgency_head_f1': 0.7404050711193569, 'eval_loss': 1.1315961872626628, 'train_loss_avg': 1.5606000418416583}
+2026-03-30 01:18:44 [INFO] jenga_ai.training.callbacks: Metric 'eval_loss' improved to 1.131596
+2026-03-30 01:18:45 [INFO] jenga_ai.training.callbacks: Checkpoint saved (best): /root/sdk_training_runs/results/cpims-nlp-afribert-kenya-adapted/checkpoints/best
+Training:  10%|███████████▊                                                                                                          | 624/6240 [00:30<04:40, 20.04it/s, epoch=2, loss=0.1484]2026-03-30 01:19:00 [INFO] jenga_ai.training.trainer: Epoch 2/20 - Metrics: {'intent_intent_head_accuracy': 0.6272727272727273, 'intent_intent_head_precision': 0.5494349073659418, 'intent_intent_head_recall': 0.6272727272727273, 'intent_intent_head_f1': 0.5641443607965683, 'urgency_urgency_head_accuracy': 0.8272727272727273, 'urgency_urgency_head_precision': 0.83031812824484, 'urgency_urgency_head_recall': 0.8272727272727273, 'urgency_urgency_head_f1': 0.8219244824954013, 'eval_loss': 0.9087176740701709, 'train_loss_avg': 0.9921015722987553}
+2026-03-30 01:19:00 [INFO] jenga_ai.training.callbacks: Metric 'eval_loss' improved to 0.908718
+2026-03-30 01:19:01 [INFO] jenga_ai.training.callbacks: Checkpoint saved (best): /root/sdk_training_runs/results/cpims-nlp-afribert-kenya-adapted/checkpoints/best
+Training:  15%|█████████████████▋                                                                                                    | 936/6240 [00:46<04:06, 21.50it/s, epoch=3, loss=0.0184]2026-03-30 01:19:16 [INFO] jenga_ai.training.trainer: Epoch 3/20 - Metrics: {'intent_intent_head_accuracy': 0.6818181818181818, 'intent_intent_head_precision': 0.6220628342245988, 'intent_intent_head_recall': 0.6818181818181818, 'intent_intent_head_f1': 0.6225999012584725, 'urgency_urgency_head_accuracy': 0.8136363636363636, 'urgency_urgency_head_precision': 0.8283595941263818, 'urgency_urgency_head_recall': 0.8136363636363636, 'urgency_urgency_head_f1': 0.7983120234810046, 'eval_loss': 0.8833611043768802, 'train_loss_avg': 0.6946672628102346}
+2026-03-30 01:19:16 [INFO] jenga_ai.training.callbacks: Metric 'eval_loss' improved to 0.883361
+2026-03-30 01:19:17 [INFO] jenga_ai.training.callbacks: Checkpoint saved (best): /root/sdk_training_runs/results/cpims-nlp-afribert-kenya-adapted/checkpoints/best
+Training:  20%|███████████████████████▍                                                                                             | 1248/6240 [01:01<03:34, 23.23it/s, epoch=4, loss=0.0506]2026-03-30 01:19:32 [INFO] jenga_ai.training.trainer: Epoch 4/20 - Metrics: {'intent_intent_head_accuracy': 0.7227272727272728, 'intent_intent_head_precision': 0.6556186868686869, 'intent_intent_head_recall': 0.7227272727272728, 'intent_intent_head_f1': 0.6648975979457262, 'urgency_urgency_head_accuracy': 0.8545454545454545, 'urgency_urgency_head_precision': 0.8614744756049103, 'urgency_urgency_head_recall': 0.8545454545454545, 'urgency_urgency_head_f1': 0.8456304874184897, 'eval_loss': 0.8286844460900673, 'train_loss_avg': 0.5119980975354198}
+2026-03-30 01:19:32 [INFO] jenga_ai.training.callbacks: Metric 'eval_loss' improved to 0.828684
+2026-03-30 01:19:32 [INFO] jenga_ai.training.callbacks: Checkpoint saved (best): /root/sdk_training_runs/results/cpims-nlp-afribert-kenya-adapted/checkpoints/best
+Training:  25%|█████████████████████████████▎                                                                                       | 1560/6240 [01:17<03:04, 25.36it/s, epoch=5, loss=0.0025]2026-03-30 01:19:47 [INFO] jenga_ai.training.trainer: Epoch 5/20 - Metrics: {'intent_intent_head_accuracy': 0.7454545454545455, 'intent_intent_head_precision': 0.6837672527574714, 'intent_intent_head_recall': 0.7454545454545455, 'intent_intent_head_f1': 0.7054040827106678, 'urgency_urgency_head_accuracy': 0.85, 'urgency_urgency_head_precision': 0.8472984122042341, 'urgency_urgency_head_recall': 0.85, 'urgency_urgency_head_f1': 0.8479016657985312, 'eval_loss': 0.7746186667895277, 'train_loss_avg': 0.3772210124842763}
+2026-03-30 01:19:47 [INFO] jenga_ai.training.callbacks: Metric 'eval_loss' improved to 0.774619
+2026-03-30 01:19:49 [INFO] jenga_ai.training.callbacks: Checkpoint saved (epoch 4): /root/sdk_training_runs/results/cpims-nlp-afribert-kenya-adapted/checkpoints/epoch_4
+2026-03-30 01:19:51 [INFO] jenga_ai.training.callbacks: Checkpoint saved (best): /root/sdk_training_runs/results/cpims-nlp-afribert-kenya-adapted/checkpoints/best
+Training:  30%|███████████████████████████████████                                                                                  | 1872/6240 [01:36<03:33, 20.41it/s, epoch=6, loss=0.0058]2026-03-30 01:20:06 [INFO] jenga_ai.training.trainer: Epoch 6/20 - Metrics: {'intent_intent_head_accuracy': 0.75, 'intent_intent_head_precision': 0.6846812278630461, 'intent_intent_head_recall': 0.75, 'intent_intent_head_f1': 0.7040440182608773, 'urgency_urgency_head_accuracy': 0.8136363636363636, 'urgency_urgency_head_precision': 0.8125683212493029, 'urgency_urgency_head_recall': 0.8136363636363636, 'urgency_urgency_head_f1': 0.801304851796655, 'eval_loss': 0.8365247517301343, 'train_loss_avg': 0.24959906770210438}
+2026-03-30 01:20:06 [INFO] jenga_ai.training.callbacks: Metric 'eval_loss' did not improve. Patience: 1/5
+Training:  35%|████████████████████████████████████████▉                                                                            | 2184/6240 [01:51<03:11, 21.17it/s, epoch=7, loss=0.0701]2026-03-30 01:20:22 [INFO] jenga_ai.training.trainer: Epoch 7/20 - Metrics: {'intent_intent_head_accuracy': 0.7318181818181818, 'intent_intent_head_precision': 0.667376658101257, 'intent_intent_head_recall': 0.7318181818181818, 'intent_intent_head_f1': 0.6903231514441357, 'urgency_urgency_head_accuracy': 0.8636363636363636, 'urgency_urgency_head_precision': 0.8625182493680815, 'urgency_urgency_head_recall': 0.8636363636363636, 'urgency_urgency_head_f1': 0.8592174683783411, 'eval_loss': 0.8103390676821748, 'train_loss_avg': 0.1865202045883052}
+2026-03-30 01:20:22 [INFO] jenga_ai.training.callbacks: Metric 'eval_loss' did not improve. Patience: 2/5
+Training:  40%|██████████████████████████████████████████████▊                                                                      | 2496/6240 [02:06<02:40, 23.39it/s, epoch=8, loss=0.0147]2026-03-30 01:20:36 [INFO] jenga_ai.training.trainer: Epoch 8/20 - Metrics: {'intent_intent_head_accuracy': 0.7227272727272728, 'intent_intent_head_precision': 0.6691518466518468, 'intent_intent_head_recall': 0.7227272727272728, 'intent_intent_head_f1': 0.6906886907272132, 'urgency_urgency_head_accuracy': 0.8454545454545455, 'urgency_urgency_head_precision': 0.850220593768814, 'urgency_urgency_head_recall': 0.8454545454545455, 'urgency_urgency_head_f1': 0.8392018045363548, 'eval_loss': 0.8193736525655757, 'train_loss_avg': 0.14759766965923915}
+2026-03-30 01:20:36 [INFO] jenga_ai.training.callbacks: Metric 'eval_loss' did not improve. Patience: 3/5
+Training:  45%|████████████████████████████████████████████████████▋                                                                | 2808/6240 [02:21<02:27, 23.33it/s, epoch=9, loss=0.0012]2026-03-30 01:20:51 [INFO] jenga_ai.training.trainer: Epoch 9/20 - Metrics: {'intent_intent_head_accuracy': 0.7454545454545455, 'intent_intent_head_precision': 0.7115738428238428, 'intent_intent_head_recall': 0.7454545454545455, 'intent_intent_head_f1': 0.7174588000118863, 'urgency_urgency_head_accuracy': 0.8363636363636363, 'urgency_urgency_head_precision': 0.8350001948121524, 'urgency_urgency_head_recall': 0.8363636363636363, 'urgency_urgency_head_f1': 0.8297736508708854, 'eval_loss': 0.8340520071901015, 'train_loss_avg': 0.10826875241671075}
+2026-03-30 01:20:51 [INFO] jenga_ai.training.callbacks: Metric 'eval_loss' did not improve. Patience: 4/5
+Training:  50%|██████████████████████████████████████████████████████████                                                          | 3120/6240 [02:36<02:15, 23.02it/s, epoch=10, loss=0.0352]2026-03-30 01:21:06 [INFO] jenga_ai.training.trainer: Epoch 10/20 - Metrics: {'intent_intent_head_accuracy': 0.740909090909091, 'intent_intent_head_precision': 0.6946224853577795, 'intent_intent_head_recall': 0.740909090909091, 'intent_intent_head_f1': 0.7076970173848999, 'urgency_urgency_head_accuracy': 0.8409090909090909, 'urgency_urgency_head_precision': 0.837332069448221, 'urgency_urgency_head_recall': 0.8409090909090909, 'urgency_urgency_head_f1': 0.835756392322822, 'eval_loss': 0.8866380828154173, 'train_loss_avg': 0.0816160247261742}
+2026-03-30 01:21:06 [INFO] jenga_ai.training.callbacks: Metric 'eval_loss' did not improve. Patience: 5/5
+2026-03-30 01:21:06 [INFO] jenga_ai.training.callbacks: Early stopping triggered
+2026-03-30 01:21:07 [INFO] jenga_ai.training.callbacks: Checkpoint saved (epoch 9): /root/sdk_training_runs/results/cpims-nlp-afribert-kenya-adapted/checkpoints/epoch_9
+2026-03-30 01:21:07 [INFO] jenga_ai.training.trainer: Training stopped early
+Training:  50%|██████████████████████████████████████████████████████████                                                          | 3120/6240 [02:38<02:38, 19.73it/s, epoch=10, loss=0.0352]
+2026-03-30 01:21:07 [INFO] jenga_ai.training.callbacks: Logger closed
+2026-03-30 01:21:08 [INFO] jenga_ai.core.model: Model saved to /root/sdk_training_runs/results/cpims-nlp-afribert-kenya-adapted
+2026-03-30 01:21:08 [INFO] jenga_ai.core.config: Config saved to /root/sdk_training_runs/results/cpims-nlp-afribert-kenya-adapted/experiment_config.yaml
+2026-03-30 01:21:08 [INFO] jenga_ai.training.trainer: Experiment config saved to /root/sdk_training_runs/results/cpims-nlp-afribert-kenya-adapted/experiment_config.yaml
+2026-03-30 01:21:08 [INFO] jenga_ai.core.config: Config saved to /root/sdk_training_runs/results/cpims-nlp-afribert-kenya-adapted/experiment_config.yaml
+2026-03-30 01:21:08 [INFO] jenga_ai: Training complete. Results saved to /root/sdk_training_runs/results/cpims-nlp-afribert-kenya-adapted
+(venv) root@5fbf0a728f9a:~/sdk_training_runs# 
+(venv) root@5fbf0a728f9a:~/sdk_training_runs# 
+(venv) root@5fbf0a728f9a:~/sdk_training_runs# 
+(venv) root@5fbf0a728f9a:~/sdk_training_runs# 
+(venv) root@5fbf0a728f9a:~/sdk_training_runs# 
+(venv) root@5fbf0a728f9a:~/sdk_training_runs# 
+(venv) root@5fbf0a728f9a:~/sdk_training_runs# 
+(venv) root@5fbf0a728f9a:~/sdk_training_runs# 
+(venv) root@5fbf0a728f9a:~/sdk_training_runs# 
+(venv) root@5fbf0a728f9a:~/sdk_training_runs#  python -m jenga_ai predict   --model-dir /root/sdk_training_runs/results/cpims-nlp-afribert-kenya-adapted/   --config /root/sdk_training_runs/results/cpims-nlp-afribert-kenya-adapted/experiment_config.yaml   --text "Joshua pliz also look at the rehab scenario whereby they stay with the same number of children for months before receiving new admissions. See how it will be captured since they cannot capture population in the admission column and neither can they report nil for those months. "
+2026-03-30 01:24:20 [INFO] jenga_ai.utils.device: Using CUDA device: NVIDIA A40
+2026-03-30 01:24:20 [INFO] httpx: HTTP Request: HEAD https://huggingface.co/Rogendo/afribert-kenya-adapted/resolve/main/config.json "HTTP/1.1 200 OK"
+2026-03-30 01:24:21 [INFO] httpx: HTTP Request: HEAD https://huggingface.co/Rogendo/afribert-kenya-adapted/resolve/main/tokenizer_config.json "HTTP/1.1 200 OK"
+2026-03-30 01:24:21 [INFO] httpx: HTTP Request: GET https://huggingface.co/api/models/Rogendo/afribert-kenya-adapted/tree/main/additional_chat_templates?recursive=false&expand=false "HTTP/1.1 404 Not Found"
+2026-03-30 01:24:21 [INFO] httpx: HTTP Request: GET https://huggingface.co/api/models/Rogendo/afribert-kenya-adapted/tree/main?recursive=true&expand=false "HTTP/1.1 200 OK"
+2026-03-30 01:24:22 [INFO] jenga_ai.tasks.registry: Creating task 'intent' of type 'single_label_classification' with hidden_size=768
+2026-03-30 01:24:22 [INFO] jenga_ai.tasks.registry: Creating task 'urgency' of type 'single_label_classification' with hidden_size=768
+2026-03-30 01:24:32 [INFO] httpx: HTTP Request: HEAD https://huggingface.co/Rogendo/afribert-kenya-adapted/resolve/main/config.json "HTTP/1.1 200 OK"
+Loading weights: 100%|███████████████████████████████████████████████████████████████████████████| 165/165 [00:00<00:00, 1376.64it/s, Materializing param=encoder.layer.9.output.dense.weight]
+XLMRobertaModel LOAD REPORT from: Rogendo/afribert-kenya-adapted
+Key                       | Status     | 
+--------------------------+------------+-
+lm_head.dense.bias        | UNEXPECTED | 
+lm_head.dense.weight      | UNEXPECTED | 
+lm_head.bias              | UNEXPECTED | 
+lm_head.layer_norm.bias   | UNEXPECTED | 
+lm_head.layer_norm.weight | UNEXPECTED | 
+pooler.dense.weight       | MISSING    | 
+pooler.dense.bias         | MISSING    | 
+
+Notes:
+- UNEXPECTED	:can be ignored when loading from different task/architecture; not ok if you expect identical arch.
+- MISSING	:those params were newly initialized because missing from the checkpoint. Consider training on your downstream task.
+2026-03-30 01:24:33 [INFO] jenga_ai.core.model: Froze 6 encoder layers
+2026-03-30 01:24:34 [INFO] jenga_ai.core.model: Model loaded from /root/sdk_training_runs/results/cpims-nlp-afribert-kenya-adapted
+{
+  "text": "Joshua pliz also look at the rehab scenario whereby they stay with the same number of children for months before receiving new admissions. See how it will be captured since they cannot capture population in the admission column and neither can they report nil for those months. ",
+  "task_results": {
+    "intent": {
+      "task_name": "intent",
+      "task_type": "single_label_classification",
+      "heads": {
+        "intent_head": {
+          "head_name": "intent_head",
+          "prediction": 3,
+          "confidence": 0.3094,
+          "label": "Admission",
+          "probabilities": {
+            "ActivateDeactivate-account": 0.0085,
+            "AddStaffTeacher": 0.0093,
+            "AddmissionDelays": 0.0059,
+            "Admission": 0.3094,
+            "ArrestedChildren": 0.0011,
+            "CPIMSstatusreport": 0.0097,
+            "CPMISaccess": 0.0023,
+            "CPVs": 0.0012,
+            "ChallengesOfStaff": 0.0036,
+            "ChildDischarge": 0.0098,
+            "ChildLeave": 0.0026,
+            "ChildOffendorList": 0.003,
+            "ChildReaddmission": 0.0106,
+            "ChildSearch": 0.0274,
+            "ChildTransfer": 0.0018,
+            "Childreninremand": 0.0088,
+            "DataEntry": 0.0023,
+            "DataSubmission": 0.286,
+            "Emailaccess": 0.003,
+            "Escapeofchildren": 0.003,
+            "ForeignChildRegistration": 0.0036,
+            "LiveSystem": 0.0037,
+            "LiveSystem-access": 0.0017,
+            "ManageAdministrativetasks": 0.0416,
+            "Population": 0.017,
+            "PopulationUpdate": 0.0055,
+            "Recordassess": 0.0109,
+            "Registrationofstaff": 0.0105,
+            "SelfDischarge": 0.0019,
+            "SiblingsInfomation": 0.013,
+            "UnlockingAccount": 0.0036,
+            "UpdateDetails": 0.0039,
+            "about": 0.0013,
+            "accountunlocking": 0.0132,
+            "addrescuecentre": 0.003,
+            "aligningcaseloads": 0.0033,
+            "complaint": 0.0028,
+            "createaccount": 0.0044,
+            "createcpmisaccounts": 0.0056,
+            "crimereport": 0.0004,
+            "delete": 0.0012,
+            "genderissues": 0.0056,
+            "goodbye": 0.0018,
+            "greeting": 0.0149,
+            "help": 0.0148,
+            "leavedays": 0.0108,
+            "livestream": 0.0017,
+            "login": 0.0006,
+            "missinginformation": 0.001,
+            "notAbleToReset_Password": 0.0093,
+            "onlinetraining": 0.0221,
+            "passwords": 0.0118,
+            "payments": 0.0055,
+            "personregistry": 0.017,
+            "photos": 0.0033,
+            "recurringcases": 0.0015,
+            "sheets": 0.0045,
+            "systemAcess": 0.0024,
+            "systemerror": 0.0024,
+            "systemfunctions": 0.0034,
+            "thanks": 0.0007,
+            "upda": 0.0004,
+            "usermanual": 0.0034
+          }
+        }
+      }
+    },
+    "urgency": {
+      "task_name": "urgency",
+      "task_type": "single_label_classification",
+      "heads": {
+        "urgency_head": {
+          "head_name": "urgency_head",
+          "prediction": 1,
+          "confidence": 0.9781,
+          "label": "low",
+          "probabilities": {
+            "high": 0.0001,
+            "low": 0.9781,
+            "medium": 0.0217
+          }
+        }
+      }
+    }
+  },
+  "pii_detected": false,
+  "processing_time_ms": 346.14
+}
+(venv) root@5fbf0a728f9a:~/sdk_training_runs# python -m jenga_ai predict   --model-dir /root/sdk_training_runs/results/cpims-nlp-afribert-kenya-adapted/   --config /root/sdk_training_runs/results/cpims-nlp-afribert-kenya-adapted/experiment_config.yaml   --text "Nimesahau password. tafadhali nisaidie"
+2026-03-30 01:27:15 [INFO] jenga_ai.utils.device: Using CUDA device: NVIDIA A40
+2026-03-30 01:27:15 [INFO] httpx: HTTP Request: HEAD https://huggingface.co/Rogendo/afribert-kenya-adapted/resolve/main/config.json "HTTP/1.1 200 OK"
+2026-03-30 01:27:15 [INFO] httpx: HTTP Request: HEAD https://huggingface.co/Rogendo/afribert-kenya-adapted/resolve/main/tokenizer_config.json "HTTP/1.1 200 OK"
+2026-03-30 01:27:16 [INFO] httpx: HTTP Request: GET https://huggingface.co/api/models/Rogendo/afribert-kenya-adapted/tree/main/additional_chat_templates?recursive=false&expand=false "HTTP/1.1 404 Not Found"
+2026-03-30 01:27:16 [INFO] httpx: HTTP Request: GET https://huggingface.co/api/models/Rogendo/afribert-kenya-adapted/tree/main?recursive=true&expand=false "HTTP/1.1 200 OK"
+2026-03-30 01:27:17 [INFO] jenga_ai.tasks.registry: Creating task 'intent' of type 'single_label_classification' with hidden_size=768
+2026-03-30 01:27:17 [INFO] jenga_ai.tasks.registry: Creating task 'urgency' of type 'single_label_classification' with hidden_size=768
+2026-03-30 01:27:17 [INFO] httpx: HTTP Request: HEAD https://huggingface.co/Rogendo/afribert-kenya-adapted/resolve/main/config.json "HTTP/1.1 200 OK"
+2026-03-30 01:27:17 [INFO] httpx: HTTP Request: HEAD https://huggingface.co/Rogendo/afribert-kenya-adapted/resolve/main/config.json "HTTP/1.1 200 OK"
+Loading weights: 100%|███████████████████████████████████████████████████████████████████████████| 165/165 [00:00<00:00, 1616.26it/s, Materializing param=encoder.layer.9.output.dense.weight]
+XLMRobertaModel LOAD REPORT from: Rogendo/afribert-kenya-adapted
+Key                       | Status     | 
+--------------------------+------------+-
+lm_head.bias              | UNEXPECTED | 
+lm_head.layer_norm.weight | UNEXPECTED | 
+lm_head.layer_norm.bias   | UNEXPECTED | 
+lm_head.dense.bias        | UNEXPECTED | 
+lm_head.dense.weight      | UNEXPECTED | 
+pooler.dense.weight       | MISSING    | 
+pooler.dense.bias         | MISSING    | 
+
+Notes:
+- UNEXPECTED	:can be ignored when loading from different task/architecture; not ok if you expect identical arch.
+- MISSING	:those params were newly initialized because missing from the checkpoint. Consider training on your downstream task.
+2026-03-30 01:27:17 [INFO] jenga_ai.core.model: Froze 6 encoder layers
+2026-03-30 01:27:19 [INFO] jenga_ai.core.model: Model loaded from /root/sdk_training_runs/results/cpims-nlp-afribert-kenya-adapted
+{
+  "text": "Nimesahau password. tafadhali nisaidie",
+  "task_results": {
+    "intent": {
+      "task_name": "intent",
+      "task_type": "single_label_classification",
+      "heads": {
+        "intent_head": {
+          "head_name": "intent_head",
+          "prediction": 51,
+          "confidence": 0.9992,
+          "label": "passwords",
+          "probabilities": {
+            "ActivateDeactivate-account": 0.0,
+            "AddStaffTeacher": 0.0,
+            "AddmissionDelays": 0.0,
+            "Admission": 0.0,
+            "ArrestedChildren": 0.0,
+            "CPIMSstatusreport": 0.0,
+            "CPMISaccess": 0.0,
+            "CPVs": 0.0,
+            "ChallengesOfStaff": 0.0,
+            "ChildDischarge": 0.0,
+            "ChildLeave": 0.0,
+            "ChildOffendorList": 0.0,
+            "ChildReaddmission": 0.0,
+            "ChildSearch": 0.0,
+            "ChildTransfer": 0.0,
+            "Childreninremand": 0.0,
+            "DataEntry": 0.0,
+            "DataSubmission": 0.0,
+            "Emailaccess": 0.0,
+            "Escapeofchildren": 0.0,
+            "ForeignChildRegistration": 0.0,
+            "LiveSystem": 0.0,
+            "LiveSystem-access": 0.0,
+            "ManageAdministrativetasks": 0.0,
+            "Population": 0.0,
+            "PopulationUpdate": 0.0,
+            "Recordassess": 0.0,
+            "Registrationofstaff": 0.0,
+            "SelfDischarge": 0.0,
+            "SiblingsInfomation": 0.0,
+            "UnlockingAccount": 0.0,
+            "UpdateDetails": 0.0,
+            "about": 0.0,
+            "accountunlocking": 0.0001,
+            "addrescuecentre": 0.0,
+            "aligningcaseloads": 0.0,
+            "complaint": 0.0,
+            "createaccount": 0.0,
+            "createcpmisaccounts": 0.0,
+            "crimereport": 0.0,
+            "delete": 0.0,
+            "genderissues": 0.0,
+            "goodbye": 0.0,
+            "greeting": 0.0,
+            "help": 0.0,
+            "leavedays": 0.0,
+            "livestream": 0.0,
+            "login": 0.0,
+            "missinginformation": 0.0,
+            "notAbleToReset_Password": 0.0001,
+            "onlinetraining": 0.0,
+            "passwords": 0.9992,
+            "payments": 0.0,
+            "personregistry": 0.0,
+            "photos": 0.0,
+            "recurringcases": 0.0,
+            "sheets": 0.0,
+            "systemAcess": 0.0,
+            "systemerror": 0.0,
+            "systemfunctions": 0.0,
+            "thanks": 0.0,
+            "upda": 0.0,
+            "usermanual": 0.0
+          }
+        }
+      }
+    },
+    "urgency": {
+      "task_name": "urgency",
+      "task_type": "single_label_classification",
+      "heads": {
+        "urgency_head": {
+          "head_name": "urgency_head",
+          "prediction": 2,
+          "confidence": 0.9972,
+          "label": "medium",
+          "probabilities": {
+            "high": 0.0005,
+            "low": 0.0023,
+            "medium": 0.9972
+          }
+        }
+      }
+    }
+  },
+  "pii_detected": false,
+  "processing_time_ms": 384.2
+}
+(venv) root@5fbf0a728f9a:~/sdk_training_runs# 
+

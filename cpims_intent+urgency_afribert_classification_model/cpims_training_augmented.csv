@@ -1,0 +1,1466 @@
+text,intent,urgency,department
+Hi,greeting,low,general
+Hey,greeting,low,general
+Is anyone there?,greeting,low,general
+Hello,greeting,low,general
+Hay,greeting,low,general
+Sasa,greeting,low,general
+Good Evening,greeting,low,general
+Good afternoon,greeting,low,general
+Bye,goodbye,low,general
+See you later,goodbye,low,general
+Goodbye,goodbye,low,general
+Thanks,thanks,low,general
+Thank you,thanks,low,general
+That's helpful,thanks,low,general
+Thanks for the help,thanks,low,general
+Who are you?,about,low,general
+What are you?,about,low,general
+Who you are?,about,low,general
+Could you help me?,help,low,general
+give me a hand please,help,low,general
+Can you help?,help,low,general
+I need a support,help,low,general
+I need a help,help,low,general
+support me please,help,low,general
+how to deactivate an account,ActivateDeactivate-account,low,ict_support
+my account is deactivated,ActivateDeactivate-account,low,ict_support
+Can not activate my account,ActivateDeactivate-account,low,ict_support
+having problens with my account activation,ActivateDeactivate-account,low,ict_support
+How to activate an account,ActivateDeactivate-account,low,ict_support
+How can i reset my password,passwords,low,ict_support
+cant remember my logins,passwords,low,ict_support
+i lost my login credentials,passwords,low,ict_support
+I did not save my logins and I lost them,passwords,low,ict_support
+what do I do when I cant remember my logins or password,passwords,low,ict_support
+can I recover my password,passwords,low,ict_support
+How do I change my password,passwords,low,ict_support
+I forgot my password,passwords,low,ict_support
+can not remember my password,passwords,low,ict_support
+Forgot password kindly assist,passwords,low,ict_support
+My password is  locked and kindly request that it be reset.  Thank you,passwords,low,ict_support
+I have not been able to have my password reset. Kindly facilitate,passwords,low,ict_support
+Please reset,passwords,low,ict_support
+My account requested for account password reset,passwords,low,ict_support
+Kindly reset the password,passwords,low,ict_support
+What should I do coz I can't remember old password,passwords,low,ict_support
+I have not received a notification on password change,passwords,low,ict_support
+How can I do a self reset of my password,passwords,low,ict_support
+When will we be paid,payments,low,training_admin
+Why is our payment delayed,payments,low,training_admin
+we have not been paid,payments,low,training_admin
+Where can i access the photos,photos,medium,data_registry
+Where is the link to the images,photos,medium,data_registry
+How can i feel the sheets,sheets,medium,data_registry
+Help me with the instructions to fill the sheets,sheets,medium,data_registry
+when can i join the livestream,livestream,low,ict_support
+How cam i join the livetream,livestream,low,ict_support
+When will the live stream be available to me,livestream,low,ict_support
+How can i access livestream services,livestream,low,ict_support
+I need to create a new account,createaccount,low,ict_support
+how to open a new account,createaccount,low,ict_support
+I want to create an account,createaccount,low,ict_support
+can you create an account for me,createaccount,low,ict_support
+have a complain,complaint,high,case_management
+I want to raise a complain,complaint,high,case_management
+there is a complain about a service,complaint,high,case_management
+Unable to login,login,low,ict_support
+Having login issues,login,low,ict_support
+can not login to my account,login,low,ict_support
+The login page is not loading,login,low,ict_support
+The login page is not appearing,login,low,ict_support
+unable to load the system,login,low,ict_support
+The System is too slow,login,low,ict_support
+site not available,login,low,ict_support
+Cannt find the systems website,login,low,ict_support
+How to delete a child recorded more than once,delete,medium,data_registry
+How to delete duplicates,delete,medium,data_registry
+How do I enter infomations for siblings,SiblingsInfomation,medium,case_management
+parent nigletted more than one child,SiblingsInfomation,medium,case_management
+children are related,SiblingsInfomation,medium,case_management
+Which platform are we submitting data,DataEntry,medium,data_registry
+Is excel still working in submitting data,DataEntry,medium,data_registry
+I need help to key in a child and the date paper form filled is not active,DataEntry,medium,data_registry
+How do i find the caseloads  as entered in CPIMS for the period,DataEntry,medium,data_registry
+How can I fix the issue of entering the wrong type of data/information,DataEntry,medium,data_registry
+Is it possible to enter all our cases into the system,DataEntry,medium,data_registry
+Please help me understand the connection between the entries and the totals,DataEntry,medium,data_registry
+Who are the perpetrators in the updated system,DataEntry,medium,data_registry
+Some cases that have been recorded have not reflected in the system,DataEntry,medium,data_registry
+Do we still fill tool A,DataEntry,medium,data_registry
+How do I update my details,UpdateDetails,medium,data_registry
+how can I change my profile,UpdateDetails,medium,data_registry
+I want to change my personal details,UpdateDetails,medium,data_registry
+steps to change my profile details,UpdateDetails,medium,data_registry
+How can I change my details,UpdateDetails,medium,data_registry
+Is excel still working in submitting data,UpdateDetails,medium,data_registry
+I cant reset my password,notAbleToReset_Password,low,ict_support
+my reset email has not arrived,notAbleToReset_Password,low,ict_support
+Reset password not working,notAbleToReset_Password,low,ict_support
+I cannot excess the system what's the problem,systemAcess,low,ict_support
+Why are users still being locked out of CPIMS?,systemAcess,low,ict_support
+I'm not able to access CPIMS. Any help.,systemAcess,low,ict_support
+the trainers are not able to access the  the live system using their user names and password given during the training.,systemAcess,low,ict_support
+am trying to connect with cpims in vain. Any problem?,systemAcess,low,ict_support
+How can access the population of the children,Population,medium,data_registry
+What is our population,Population,medium,data_registry
+Is the population for both boys and girls,Population,medium,data_registry
+The population (girls/boys) is still reading 0/0..,Population,medium,data_registry
+What can I do when we stay with children for months without receiving their admissions,Admission,medium,data_registry
+population in the admission column can capture or neither can they report nil for those months.,Admission,medium,data_registry
+What can I do when we stay with children for months without receiving their admissions,DataSubmission,medium,data_registry
+children admision not received,DataSubmission,medium,data_registry
+will we then be submitting monthly/quarterly or annually?,Admission,medium,data_registry
+is there self discharge,SelfDischarge,high,case_management
+what is self discharge,SelfDischarge,high,case_management
+children do escape will you capture them as exit?,Escapeofchildren,high,case_management
+where will children who escaped be classifield,Escapeofchildren,high,case_management
+what is excape part of,Escapeofchildren,high,case_management
+is escape exit or discharge,Escapeofchildren,high,case_management
+is escape exit,Escapeofchildren,high,case_management
+is escape discharge,Escapeofchildren,high,case_management
+what about a child who has been taken by police to court,ArrestedChildren,high,case_management
+What can I do when a child is arrested,ArrestedChildren,high,case_management
+can a child is arrested for more than five days be declared as an exit,ArrestedChildren,high,case_management
+arrested,ArrestedChildren,high,case_management
+child in prison,ArrestedChildren,high,case_management
+child is imprisoned,ArrestedChildren,high,case_management
+Please advise I am stuck and can't proceed to fill the case record sheet coz there's is no values,Recordassess,medium,data_registry
+At what conditions will the child remain in a remand,Childreninremand,high,case_management
+What happens when child is remanded,Childreninremand,high,case_management
+Can children under the age of 18 be remanded,Childreninremand,high,case_management
+I wish to register new staff,Registrationofstaff,low,data_registry
+register staff,Registrationofstaff,low,data_registry
+I wish to register is a children Assistant 11.,Registrationofstaff,low,data_registry
+There is a challenge at the point of selecting the cadre of our staff,ChallengesOfStaff,low,training_admin
+staff cant select fields,ChallengesOfStaff,low,training_admin
+How do I search for a child in the system,ChildSearch,medium,case_management
+How do I find child details in the system,ChildSearch,medium,case_management
+Please guide on how to search for a child,ChildSearch,medium,case_management
+What happens when you transfer children to another institutions,ChildTransfer,high,case_management
+Can you transfer a child to other institutions,ChildTransfer,high,case_management
+Am unable to transfer a girl from reception to rehab is it transfer in or re-admission,ChildTransfer,high,case_management
+how do I know the transfer is successful,ChildTransfer,high,case_management
+Can a child be transferred from a Remand directly to a Rehabilitation without passing through a reception center?,ChildTransfer,high,case_management
+when creating work force where do we place teachers,AddStaffTeacher,low,data_registry
+The system doesn't recognize teachers,AddStaffTeacher,low,data_registry
+when I discharge some children from institution some disappear from pending cases,ChildDischarge,high,case_management
+What type of discharge when the subject is committed to prison or remand,ChildDischarge,high,case_management
+The system doesn't recognize teachers,ChildDischarge,high,case_management
+How do you admit child who had already escaped?,ChildReaddmission,medium,case_management
+How do you readmit a child who escaped and captured,ChildReaddmission,medium,case_management
+How do you readmit a child that has come in with a new case,ChildReaddmission,medium,case_management
+What happens in registration of children from outside Kenya under the location part,ForeignChildRegistration,high,case_management
+the child is not a kenyan,ForeignChildRegistration,high,case_management
+nationality is not kenya,ForeignChildRegistration,high,case_management
+child from another country,ForeignChildRegistration,high,case_management
+country not kenya,ForeignChildRegistration,high,case_management
+What is the list of child offenders,ChildOffendorList,medium,case_management
+What is the list of existing sub categories under child offender;,ChildOffendorList,medium,case_management
+Child offender crimes,ChildOffendorList,medium,case_management
+I admitted children yesterday they are shown as pending in the dashboard. What did I do wrong,AddmissionDelays,medium,data_registry
+Can not see the child i created,AddmissionDelays,medium,data_registry
+I admitted children yesterday they are shown as pending in the dashboard. What did I do wrong,ChildDischarge,high,case_management
+What is the list of existing sub categories under child offender;,ChildDischarge,high,case_management
+Child offender crimes,ChildDischarge,high,case_management
+I have cases of children whom were granted leave of absence now they are back and on institution placement,ChildLeave,high,case_management
+How should i register children who are back from leave,ChildLeave,high,case_management
+found out that these children were deleted from the system instead of being discharged. I would like to know why?,PopulationUpdate,medium,data_registry
+"The record in the website seems to have been deleted, please advise",PopulationUpdate,medium,data_registry
+"Could you please assist, am following on a record and it says the record does not exist in the database",PopulationUpdate,medium,data_registry
+How can i generate a unique serial number for my region that will be different from other regions,ManageAdministrativetasks,low,training_admin
+kindly send the reporting tools for my region,ManageAdministrativetasks,low,training_admin
+How do I copy the formulas?,ManageAdministrativetasks,low,training_admin
+Are we supposed to continue in the same workbook?,ManageAdministrativetasks,low,training_admin
+How should we send the excel tool A,ManageAdministrativetasks,low,training_admin
+We have noted that the majority of the offices submitted the monthly caseloads using the old version of Tool A.,ManageAdministrativetasks,low,training_admin
+Please unlock my account,accountunlocking,low,ict_support
+"I cant access my account, plaese help me access it",accountunlocking,low,ict_support
+how can access my locked account,accountunlocking,low,ict_support
+I'm not able to access CPIMS. Any help.,CPMISaccess,low,ict_support
+I have been having problems with CPIMS as far as logging is concerned,CPMISaccess,low,ict_support
+Invalid literal for int() with base 10:'undefined,systemerror,low,ict_support
+Still getting the same error message,systemerror,low,ict_support
+The person in charge cannot view a child who was created by someone else under them or view a child see which Sub County they were created in,systemerror,low,ict_support
+"Hi, my computer has crashed.",systemerror,low,ict_support
+can we get someone technician to check on our machine any referrals please,systemerror,low,ict_support
+I'm trying to access CPIMS but I'm getting a 503 error Service Unavailable,systemerror,low,ict_support
+Is the system currently working?,systemerror,low,ict_support
+Can you add a rescue center from another region?,addrescuecentre,low,data_registry
+My rehabilitation center is not on the list,addrescuecentre,low,data_registry
+I cant view a case referred to me that was recorded by someone else because names cannot confirm a child we might end up with many double registration,personregistry,medium,data_registry
+I still can't edit a case that was done by my predecessors so what do I do if it doesn't have all the information and I want to update,personregistry,medium,data_registry
+I am unable to register new child data. It's hanging. Your assistance please.,personregistry,medium,data_registry
+How can i view children so that we can tell if its the same child to avoid duplication,personregistry,medium,data_registry
+case history of the child and family background are missing as i generate a social inquiry,missinginformation,high,case_management
+The system is also not generating a referral,missinginformation,high,case_management
+We have cases of children aged -1 years and up to 41 years.,missinginformation,high,case_management
+DoB earlier than date case reported.,missinginformation,high,case_management
+Missing DOB/Invalid DOB,missinginformation,high,case_management
+Age in appropriate cases,missinginformation,high,case_management
+Gender incompatible cases,missinginformation,high,case_management
+Missing intervention (pending cases),missinginformation,high,case_management
+Where can I report crime alerts real time for realtime response from security agencies.,crimereport,high,case_management
+Which code should I use to log in the platform,crimereport,high,case_management
+How should i report a crime,crimereport,high,case_management
+Will my identity be anonymous to the security,crimereport,high,case_management
+How much will the message cost,crimereport,high,case_management
+How can one be  Dcs officer,onlinetraining,low,training_admin
+Will there be certificates of participation,onlinetraining,low,training_admin
+"I have no one to do the CPIMS, most of the managers have not been trained",onlinetraining,low,training_admin
+Why are there differences between the excel tool caseload reporting and the caseload in the CPIMS,aligningcaseloads,medium,case_management
+Some sub counties have nil entries running to many months.,aligningcaseloads,medium,case_management
+Does this data include case management or rather concluded cases or just entries in the system?,aligningcaseloads,medium,case_management
+Which caseload should we return?,aligningcaseloads,medium,case_management
+How can we clear the backlog within this quarter,CPIMSstatusreport,low,ict_support
+The picture does not look good for a number of SCCO,CPIMSstatusreport,low,ict_support
+Should we include offices with zero data in the report,CPIMSstatusreport,low,ict_support
+Forward the soft copy of the case record sheets.,Emailaccess,low,ict_support
+i have not received the email,Emailaccess,low,ict_support
+The email has not been fowarded to me,Emailaccess,low,ict_support
+When will you proceed for leave.,leavedays,low,training_admin
+when is our leave,leavedays,low,training_admin
+How can i search for a child in this updated system,systemfunctions,low,ict_support
+How can i find the history of a child,systemfunctions,low,ict_support
+How can i print the record and institution details of a child,systemfunctions,low,ict_support
+I cant find the services in the updated system,systemfunctions,low,ict_support
+I cant find the attached files on the dashboard,systemfunctions,low,ict_support
+Am I able to see some of the cases captured,systemfunctions,low,ict_support
+What is the need for recurring cases,recurringcases,high,case_management
+How do I handles recurring cases,recurringcases,high,case_management
+How comes boys are have cases of pregnancy,genderissues,high,case_management
+How do I handles recurring cases,genderissues,high,case_management
+Where can i get the CPIMS user manual guide,usermanual,low,training_admin
+How can I access the audio of the CPIMS user manual guide,usermanual,low,training_admin
+How comes boys are have cases of pregnancy,upda,medium,data_registry
+How do I handles recurring cases,upda,medium,data_registry
+Please create CPIMS accounts for the children officers in the various sub countries,createcpmisaccounts,low,ict_support
+Dear SCCO please create accounts for all the new officers trained in CPIMS,createcpmisaccounts,low,ict_support
+The CPVs are having challenges to login into the Vurugu mapper App. The App is asking for a PIN to log in. Some didn't register with the PIN but those who did even after keying in it are not accepting,CPVs,high,case_management
+Kindly someone to help in unlocking my account,UnlockingAccount,low,ict_support
+Please unlock my account,UnlockingAccount,low,ict_support
+please my account is locked I need assistance,UnlockingAccount,low,ict_support
+I cant log in into the live system using the default password 1234,LiveSystem-access,low,ict_support
+Having problems with login in the live system for the first time,LiveSystem-access,low,ict_support
+Hello can I get assistance in the opening of the live system,LiveSystem-access,low,ict_support
+How to join live system,LiveSystem,low,ict_support
+How can I access live system,LiveSystem,low,ict_support
+who are allowed to use live system,LiveSystem,low,ict_support
+When will I be allowed to access live system,LiveSystem,low,ict_support
+how to deactivate an account,passwords,low,ict_support
+How to activate an account,passwords,low,ict_support
+I cant log in into the live system using the default password 1234,passwords,low,ict_support
+My account also requested for account password reset,passwords,low,ict_support
+What can you do for me?,help,low,general
+have a complaint,complaint,high,case_management
+I want to raise a complaint,complaint,high,case_management
+there is a complaint about a service,complaint,high,case_management
+"Hi, some help here. This Excel tool I've received still reads 2016, I thought it should be 2017 now?",DataEntry,medium,data_registry
+I have downloaded and rechecked even some  of the other sub counties and still 2016,DataEntry,medium,data_registry
+Population as at September is increasing team advice,Population,medium,data_registry
+how will population be captured since,Admission,medium,data_registry
+how will population be captured since,DataSubmission,medium,data_registry
+population in the admission column can capture or neither can they report nil for those months.,DataSubmission,medium,data_registry
+Self-discharge....is there such a thing?,Escapeofchildren,high,case_management
+Will a child is arrested for more than five days be declared as an exit,ArrestedChildren,high,case_management
+There is a challenge at the point of selecting the cadre of our staff,Registrationofstaff,low,data_registry
+How do you admit child who has already escaped?,ChildReaddmission,medium,case_management
+What is the list of existing sub categories under child offender;,AddmissionDelays,medium,data_registry
+Child offender crimes,AddmissionDelays,medium,data_registry
+Child offender crimes,ChildLeave,high,case_management
+WHow can i search for a child in this updated system,systemfunctions,low,ict_support
+Hello can I get assistance in the opening of the live system,LiveSystem,low,ict_support
+"Dear team, kindly click on this link to view and download the photos. Remember the photos will be accessible by anyone who has the link, so kindly don't share it with anyone who was not part of, or is not in anyway related to the training. If you need your photos taken down please let me know straight away (via my inbox). Thank you",photos,low,data_registry
+Hello kindly clear history n caches of your browser na kama huezi use another recommended browser,greeting,low,general
+Thanks am sorted,thanks,low,general
+Hello any updates regarding the transport,upda,medium,data_registry
+"Type place of service,then click add service.",help,low,general
+Thanks for the add.,thanks,low,general
+Welcome madam Miriam SOS Hqs.,help,low,general
+Still on process,help,low,general
+For the transport fare colleagues am getting in touch with world vision.,payments,medium,training_admin
+"Members this is a group to reflect the implementation of cpims not any other business. Take note of that, blessed day.",help,low,general
+"Hi colleagues, am following yr payment be assured you will paid soonest possible.",payments,medium,training_admin
+Great that your working let's keep on pressing colleagues.,help,low,general
+Keep on pressing hard before next year.,help,low,general
+Sure am trying my best but I sent this down here for somebody to explain what next,help,low,general
+"Next step, , manage the case by pressinging , , black boxes",help,low,general
+"Hi team, kindly assist can l use the live system now? because I have enough practice.",LiveSystem,low,ict_support
+Marere for you this was a refresher just go back to the live system since you already have an account.,LiveSystem,low,ict_support
+The live system is for the actual cases however anytime you want to practice and teach your colleagues you will have to use the test system.,LiveSystem,medium,ict_support
+Should be OK now.,help,low,general
+Hello kindly i ask the group admin to add this no 0799691532 because have changed my number,greeting,low,general
+"Merry seasons colleagues,am on knowhow that world vision didn't reimburse social workers transportation a situation which is very sad and discouraging.",payments,low,training_admin
+Thank you sir for giving us this information,thanks,low,general
+"Thank you Sir, and continue having a Merry Christmas season.",thanks,low,general
+Kindly add shadrack to respond to the payment issues here..0712471694,payments,medium,training_admin
+That's true be patient you will be reimburse and wv has assured me. Has I assured you WV as an organization has integrity and you will paid soonest.,payments,medium,training_admin
+"Am handling the issue ,so no need we are not in war ,money will be paid.Relax.",payments,medium,training_admin
+"Philip, send the list of the Social Workers to me and Ochieng. We may follow up with World Vision HQ.",help,low,general
+"Thanks sir ,but the issue is being addressed by the manager here .please with all respect sir.lets give him time as he has promised and I have faith he will deliver soonest possible.",thanks,low,general
+"Am sorting out the issue Mr. Nzenge..Kindly assure the team their allowances will be paid. All payment documents are with our finance team and they may receive payments anytime...We are a christian organization, we value integrity and transparency in all our undertakings.",payments,medium,training_admin
+That's the text from shadrack -Wv to assure the members he is doing keen following.,help,low,general
+Please I need your help why is it showing negative and not counting in the dashboard,help,low,general
+Good morning group Happy 2021,greeting,low,general
+"*Dear All,* today marks my last working day with the CPIMS project. Its been 4 years of growth and fulfillment. I wish to thank everyone for the support acorded as we collectively worked towards rollout and perfecting of the system.",help,low,general
+Happy New Year to you too. Mr. Mbai thank you for your commitment and dedication to CPIMS.,thanks,low,general
+Thanks have received the money from world vision.,thanks,low,general
+Same here. Thank you,thanks,low,general
+Thanks world vision I have received the cash may u be blessed and pig up for ur transparency,thanks,low,general
+Thanks WV I received the money.,thanks,low,general
+Payment received....Shukran,payments,medium,training_admin
+Thanks world vision I have received the cash may you blessed,thanks,low,general
+"All the best in your future endeavours sir. We appreciate your invaluable support, and will keep applying the skills you instilled in us to improve child protection in Mombasa county and beyond.",help,low,general
+Thanks have received,thanks,low,general
+Thanks av received the money,thanks,low,general
+Wengine no waluyia!!!! Kizungu na meli kikaja!!!,help,low,general
+"Wengine ""ni"" not no.",help,low,general
+"Wavumilivu hula mbivu! Thanks WV i have received.... To all the Directors, Managers, Social workers, Volunteers e.t.c. of all institutions in this group do have a Safe New Year as we count hours to embrace 2021 ...",thanks,low,general
+Amen and you too.,help,low,general
+Thanks have received,thanks,low,general
+Much appreciations World Vision.,help,low,general
+"Thanks a lot world vision fraternityI got the money ,gratitude extended to our officers who did the follow up",payments,low,training_admin
+Happy happy new year in did,help,low,general
+Happy new year..,help,low,general
+Happy new year madam,help,low,general
+Happy new year too let's remember to get back to work CPIMS is waiting,help,low,general
+I wish you all a happy newyear🤩🤩🤩 have a prosperous 2021🥰🥰🥰,help,low,general
+what is the issue,help,low,general
+it seems u r using a live system,LiveSystem,medium,ict_support
+I want to register my people in the live system,LiveSystem,medium,ict_support
+What is the coz I know we are supposed to register the kids in the live system and submit,LiveSystem,medium,ict_support
+What could be the issue coz have put my username and password but still showing me it's not correct,passwords,medium,ict_support
+So I have to go to the office,help,low,general
+Admn plz add this no 0723202266,help,low,general
+Whose number is it?,help,low,general
+"My director, Barnabas home",help,low,general
+I have sent him/her an invite,help,low,general
+"Hi Mr Philip,I hope that you have started the",greeting,low,general
+I am trying to log in child protection the live stream using my user name and password same for the test but it's not adding up. Please help.,passwords,low,ict_support
+We were told our sub county officers to log us on live stream so I think you passbye the children's department office,livestream,low,ict_support
+I am there and it's not working at all,systemerror,high,ict_support
+"Any one who has already started using the live stream, please help",livestream,medium,ict_support
+Lias with your area children officer for help,help,low,general
+Also I will try to ask my area officer,help,low,general
+Kindly let our sco explain to us we are running out of time,help,low,general
+"Leave it to ""Please Select"" as it is not mandatory.",leavedays,low,training_admin
+For the users being asked for CHV and CBO details while registering children in Registry there are two solutions;,help,low,general
+*second question,help,low,general
+"Evening colleagues,hope your fine and we are back to service as per calling.",help,low,general
+Good evening to you sir thanks for that update.Happy new year you too and have good night.,upda,medium,data_registry
+Noted Sir thanks,thanks,low,general
+Happy new year too,help,low,general
+This will be a great move...we have been waiting for this to happen,help,low,general
+Hello all. Happy New Year. Am happy to note that CCI in Mombasa are ready to move to the live system. We are eagerly waiting for the data from CCIs to enter the live system.,LiveSystem,low,ict_support
+"Hello Team, based on our promise during the training, we are making arrangements to produce the certificates. Please confirm your names you would like them to appear in the certificate from the list below.",onlinetraining,low,training_admin
+CPIMS END USER TRAINING FOR CCIS IN MOMBASA COUNTY,onlinetraining,low,training_admin
+No. 12 Confirmed. Thanks in advance,thanks,low,general
+No. 19 confirmed,help,low,general
+No. 16. *FELIX MWEU MULEI*,help,low,general
+No.3 Juma said kawthari,help,low,general
+No. 44 confirmed,help,low,general
+29. It's FAITH W. KARIGOH - CALVARY,help,low,general
+No.20. BENARD OUMA AKONGO,help,low,general
+No.17 NELLY KHAVUGWI OSALEH - FOOTSTEPS,help,low,general
+No.39 confirmed.,help,low,general
+No.18 confirmed.,help,low,general
+38 winnie akinyi Amollo,help,low,general
+No. 26 confirmed,help,low,general
+No. 43 Roda Wakio,help,low,general
+No. 28 confirmed,help,low,general
+Good morning Mr.Ogindo..trust you are well and hopingvthecteam is doing great.. has the team migrated to live system.. Asante,LiveSystem,low,ict_support
+No 6.NJERI MARY confirmed,help,low,general
+# 36 is in order,help,low,general
+No.13 to appear as PHOEBE MILLICENT ANYANGO,help,low,general
+22. Confirmed thank you,thanks,low,general
+No.37 Anthony chivatsi Chai - Baraka Children home,help,low,general
+No.2.MOHAMED MOHAMED MARERE .LIKONI REHABILITATION SCHOOL.,help,low,general
+No. 30 confirmed,help,low,general
+23...KEVIN OLUOCH ODERO.....,help,low,general
+No. 11 ELIZABETH ZAWADI KENGA,help,low,general
+10.SALOME MUTHONI HOUSE OF HOPE,help,low,general
+Mtu anaingia vipi Kwa live system,LiveSystem,medium,ict_support
+Sure please someone help,help,low,general
+Once you hit the target of the tests we agreed on the SCCO will register you on live.,help,low,general
+How much is the maximum number,help,low,general
+Morning Sir! I have to hit which target of the tests on SCCO to be registered live?,personregistry,low,data_registry
+All these were agreed upon during the meeting,help,low,general
+How..........many aky please assist ur fellow,help,low,general
+"Hello all , for those who have not confirmed their names the way you would want them to appearin your certificate, please do so urgently",greeting,high,general
+39. FAITH W. KARIGOH,help,low,general
+Number 42. SUSAN ALIERO - child of mercy...confirmed,help,low,general
+What...I thought that after practicing with my colleagues n they master then we go live....so we are to enter all our beneficiaries... pulling up our socks now,LiveSystem,medium,ict_support
+Hello team Mombasa. Below is a screenshot for the cases as at today. Highlighted CCI’s have achieved a caseload of 15 cases and above.,Population,low,data_registry
+"Dickson,I have reached the target and not highlighted can I go on with the test?",help,low,general
+Elaborate more on this coz we are waiting for our accounts to be activated,ActivateDeactivate-account,low,ict_support
+Kindly assist Upendo Children's home to unlock the account.,accountunlocking,medium,ict_support
+Can I now create a new password?,passwords,medium,ict_support
+Follow the following steps to do self reset.,notAbleToReset_Password,medium,ict_support
+Send your email address.,Emailaccess,medium,ict_support
+pabwaoh@gmail.com,Emailaccess,medium,ict_support
+You can now use it to reset your account,notAbleToReset_Password,medium,ict_support
+Thanks...It was successful,thanks,low,general
+Hello can I get assistance in the opening of the live system it's much time and there is no immediate response please let know how to go about it,systemfunctions,low,ict_support
+Hello can I get the technicians to go about activating my live system if I can get that help I will appreciate I want to leave for school please kindly anyone,LiveSystem,low,ict_support
+username given to you?,help,low,general
+Anthony chivatsi Chai - Baraka Children Home,help,low,general
+SCCO Please communicate the accounts you have created on live CPIMS for the respective CCIs as most of the queries here are because they have not been created yet but the users are trying to log in to the system.,login,medium,ict_support
+Please contact your SCCO for the details. Most of these accounts have not been created yet.,help,low,general
+Have gone to office till today I have got no feedback,help,low,general
+Refresh your browser,help,low,general
+Steps to refresh please,help,low,general
+Press F5 on your computer.,help,low,general
+Thanks let me try,thanks,low,general
+Have pressed F5 still same problem,help,low,general
+Thanks successful,thanks,low,general
+Hope I am done with testing,help,low,general
+To Social workers working for CCIs in Kisauni and Nyali. Kindly inbox me stating,Emailaccess,medium,ict_support
+OK ! Will do that,help,low,general
+Thanks for the guidelines Beatrice,usermanual,low,training_admin
+1. Name of CCI: Calvary Zion Children's Home.,help,low,general
+Good afternoon ...what causes duplication of persons when placing in the institution?,greeting,low,general
+How do I get to the live Sistem,systemfunctions,medium,ict_support
+The cpims live site seems to have gone for lunch break for the last few minutes. Kindly check,help,low,general
+The automatic check will stop it and will be ok in the next 5 minutes.,help,low,general
+Confirmed. Back and running,help,low,general
+Getting this error,systemerror,low,ict_support
+It's sorted. Logs clean up everyone is doing data entry after the Memo.,DataEntry,medium,data_registry
+Help me please..........how do I get to the live system,systemfunctions,medium,ict_support
+Below is the list of the CCI registered in the live system in the respective sub-counties;,LiveSystem,medium,ict_support
+NYALI SUB-COUNTY CHILDREN OFFICE,help,low,general
+"Thanks for the update,Wema Centre is appearing on both Kisauni and Nyali sub-counties",upda,medium,data_registry
+Hello please I have not find my home Mr. Newton my home is restoration ophanage ........aky please assist me,help,low,general
+I send my details to Dr maina but I have not got the feedback........ please Mr.Newton assist me,help,low,general
+"Hi All as you input the admission numbers please don't add the numbers to the default XXXX/YYYY as in examples XXXX/YYYY012/2009, XXXX/YYYY012/2009 and XXXX/YYYY006/2005. Just put the numbers 012/2009, 012/2009 and 006/2005 as in the examples.",Admission,low,data_registry
+Hello some help please at the medical history of the child if he has sickle cell anemia what options will one pick coz it's not in the system,greeting,low,general
+Hello I have a question the place of the contact person are filling for the directors or the parents to the child,greeting,low,general
+"Nuru and Restoration created...the remaining homes kindly inbox some like thisName of social worker, their Id and email",Emailaccess,medium,ict_support
+I sent the details for Dickson@mr.maina,help,low,general
+Hello........I need some.....ar we putting the password and username to the previous account can someone assist me,passwords,low,ict_support
+How do i go to the live system,systemfunctions,medium,ict_support
+Live.childprotection.go.ke,help,low,general
+Is this correct?,help,low,general
+Yeah but if ur account is active,help,low,general
+"It's not functioning, the site is offline till 12th Feb, is their a problem or it's my account",systemfunctions,medium,ict_support
+It was communicated that the site will be offline this week until Friday.,help,low,general
+There is an update on the system,upda,medium,data_registry
+"Plz can someone help me, are we using the same details to log in live system",login,medium,ict_support
+Once a new account is created you will use the new details provided by the person who registered you.,createaccount,medium,ict_support
+My account is locked,accountunlocking,medium,ict_support
+No such account in the system please check with the person who created you.,help,low,general
+"Just wanted to join, have not been there",help,low,general
+How can it join live system,LiveSystem,medium,ict_support
+You are from which CCI?,help,low,general
+Barnabas Children Home,help,low,general
+Hi did you send the details the SCCO asked for the CCI to be created?,greeting,low,general
+Did you send the details i had requested,help,low,general
+Kindly inbox me the same,Emailaccess,medium,ict_support
+Hallo team....where do I find the beneficiaries place in an alternative care on the on the dashboard?,help,low,general
+"How do i go about this, i made a mistake entering the child data two times",systemfunctions,low,ict_support
+"Hi collegues, I forwarded the documents for sos, mombasa children home, Garden of hope and part of documents of Baby life.",greeting,low,general
+"Hellow I have a concern about the update of the above text , kindly try check for my institution if the data is captured coz I updated the data for the kids earlier enough. Waiting the the feedback Institution name Baraka children's home",upda,medium,data_registry
+Or are we supposed to update the same data monthly,upda,medium,data_registry
+Good progress team.. however SOSCVKE we expected more than that..kindly work on your data towards 100% by April..,help,low,general
+Plans for quality data check in your country...pending lockdown uplifting...keep on pressing on...,accountunlocking,medium,ict_support
+Kindly admn add this no 0702279878,help,low,general
+Good evening Sir Newton.... I can't be able to go on live stream and am from calvary Zion children's home,livestream,low,ict_support
+"What is your username,,",help,low,general
+We were told our sub county officer will us the username/password and I had submitted the information he requested,passwords,medium,ict_support
+To Social worker working for CCIs in Kisauni and Nyali. Kindly inbox me stating,Emailaccess,medium,ict_support
+I was waiting for my sub county officer to inbox me my username/password,passwords,medium,ict_support
+I can see the CCI in the system but not any account to this Organization. What is your name (Not username) we check.,help,low,general
+Faith Wairimu Karigoh,help,low,general
+Not yet registered in the system. Kindly follow up with the SCCO.,personregistry,medium,data_registry
+I have talked already to Mr. Maina and he told me he will check and I will follow up to tomorrow... Thank you,thanks,low,general
+Thank you for the feedback @254722166058 . Expect a higher number from SOS by 11th June.,thanks,low,general
+Thanks and may u be blessed,thanks,low,general
+Looking forward to see data updated.good morning and thanks Felix.,upda,medium,data_registry
+waiting for more resourcefull updates,upda,medium,data_registry
+My CCI having trouble to log in. Kindly assist,login,medium,ict_support
+I have removed the lock as they have used wrong password 3 times. use the forgot password functionality to reset the password if have forgotten the password.,passwords,medium,ict_support
+Hey can I be able to have list of my children data in the system,greeting,low,general
+Do you mean getting data out of the system or getting data into the system?,help,low,general
+Out of the system,help,low,general
+Reports -> Adhoc Reports and use both Case load summary and Population report.,Population,medium,data_registry
+No data. Make sure you run for a period with data.,help,low,general
+What would be the problem the children am placing do not appear at the dashboard,help,low,general
+Logout and login again it should be OK.,login,medium,ict_support
+Anyone else whose dashboard is appearing like this (first badge showing OVC - ACTVE / EVER REGISTERED and not showing POPULATION - GIRLS / BOYS) please share the screenshot.,genderissues,medium,case_management
+What do I go about it?,help,low,general
+Logout and login again it should be OK for you others something must be edited first.,login,low,ict_support
+"Hello, can this (ONLINE CHILD EXPLOITATION) case be reported to CPIMS",greeting,low,general
+Yes that case category exists.,help,low,general
+Hello ........I need for assistant my account is locked,accountunlocking,medium,ict_support
+Kindly assist me with the link I reset my device yesterday,notAbleToReset_Password,medium,ict_support
+Link ya live system,LiveSystem,medium,ict_support
+Please kindly reset: Username; zathumani,notAbleToReset_Password,medium,ict_support
+Please me me the link to live system,LiveSystem,medium,ict_support
+Please tell me is this complete??and if not how do I go about it?,systemfunctions,low,ict_support
+"Morning, Keep on refreshing the page. And if forgotten you password use the forgot password functionality.",passwords,low,ict_support
+Send your user name,help,low,general
+How come now everyone account is getting locked? In the meantime just relax we will be engaging you either at the sub county and some select CCIs to sort out these issues. Regards.,accountunlocking,medium,ict_support
+It's not....you have done CRS but you have not admitted any to ua CCI that's why at population you have 0/0,Admission,medium,data_registry
+How do I undo double entry,systemfunctions,medium,ict_support
+Which section of the system?,help,low,general
+Send me the screenshot where the double entry is. The system does not allow double admission hence I need to get some more info.,Admission,medium,data_registry
+The same problem sir. Kindly check nos. 24 and 25.,help,low,general
+Check the placement dashboard and share the same.,help,low,general
+The dashboard was showing 35 instead of 34 then I discharged Irene with Cpims Id 3863444 to get the correct figure as per the dashboard now. I don't know if I did the right thing sir. Kindly advice.,ChildDischarge,medium,case_management
+Sorry for the cup appearing on the screen,help,low,general
+That is 34 which is correct. The other Case records dashboard you were showing will always have multiple records.,Recordassess,medium,data_registry
+"Am humbled sir for your help. I have noticed when am trying make follow up for this kid Irene the system indicated that she is discharged, kindly how can I deal with this sir.",ChildDischarge,medium,case_management
+Now this is a user problem. You need to delete one in the persons registry.,delete,low,data_registry
+Kindly advice on this sir,help,low,general
+Done successfully,help,low,general
+What is the CPIMS ID?,help,low,general
+Kindly remind me how to generate an already filled case record sheet.,Recordassess,medium,data_registry
+This is the Cpims no,help,low,general
+Are you following up on the one you have already exited?,help,low,general
+Yes sir because when am searching the system gives me only 1 Irene who has been already excited.,help,low,general
+"No worries,am sorted",help,low,general
+"Kindly assist,my dash board does not show the population",Population,medium,data_registry
+"Hi Beatrice,in the organization unit,there is a question asking provide service to ovc , your sub_county officer should click No , instead of yes that's why your dashboard is not showing the population.",Population,low,data_registry
+It is corrected. Logout and log in again it should be OK.,login,medium,ict_support
+Which CCI is this?,help,low,general
+This was sorted out.,help,low,general
+Hello......I need assistance.....kutoa mtoto kwa system,greeting,low,general
+Kwa nini unataka kutoa mtoto kwa system?,help,low,general
+Azin if umemjaza mtoto two times,help,low,general
+Give me the CPIMS ID of the child I confirm most of us we keep going to the Child/OVC dashboard instead of the Institution placement that does not report duplicates.,recurringcases,low,case_management
+"Plz 0702279878 can you add this number, she is our new social worker for now, Barnabas Children Home",help,low,general
+"Hellow morning, I need help my account got locked",accountunlocking,medium,ict_support
+Your username is ezawadi and I can see you trying to login using ekenga. If you have forgotten password reset usig the set email address lizzykenga@gmail.com,Emailaccess,medium,ict_support
+"Also share with me the screenshot of your dashboard so that I can help you sort out your population. Please make sure you are following all the process for registrering children data, doing case record sheet and doing institution placement.",Recordassess,medium,data_registry
+"Am still using the same username and password bt it doesn't open up, I tried to use the email to reset bt it gives me errors",passwords,medium,ict_support
+Check again. Its been over 90 days since last login.,login,medium,ict_support
+"Dear All, please find the above CPIMS user manual guide, you can also access the same in audio form from the learning portal. learning.childprotection.go.ke.",usermanual,low,training_admin
+Our adm plz if possible add this no 0702279878 to this group,help,low,general
+"Morning all, kindly take note that you can be able to reset your passwords using the functionality highlighted above and follow the instructions given thereafter. however for those who have not used the system for over three months or those who can remember the email used when creating the account can contact their supervisors or the admni.",passwords,low,ict_support
+Wah...for those who have not used the system for 3months‍‍,help,low,general
+Just incase there is any.,help,low,general
+"*Apply For The Youth Empowerment Fund Provided By The Government. Hurry Up, It takes few seconds to apply. Dont miss this opportunity.*",help,low,general
+I have a problem with my password,passwords,medium,ict_support
+"Morning my colleagues! I know we can only talk about CPIMS in this group but am so concerned about what out brother Mr. Kagwe said that no one is to be forced to take jabs but he put it in a way that on 21st of this month no one can be able to board a plane, train, bus, mat e.t.c. without getting a jab and so my concern is that our county officers do they have a plan for us all workforce staffs in the CCI's and the directors cause we are so many in Mombasa and I thought it would be a good idea if at least it could organised by our county officers brothers/sisters we would get the jabs to all CCI's homes to homes before the 21st koz itafika mahali I need to be maybe in court, or take a child to hospital, or to visit offices of the government and am told I can't get any service without a certificate certifying that av been injected.... My colleagues i hope munanipata hii issue so mchezo...",SiblingsInfomation,medium,case_management
+"These jabs are readily available (no queue at all) at Coast general, Shimo la Tewa clinic, Jocham etc. I urge every person to take person responsibility to get themselves vaccinated. Considering the logistical implications. I can only assume only a few individuals are yet to get the jab so far.",help,low,general
+Yes Maina I get you.... Can't it be possible just as the way the government staffs take deworming and vitamin for the small children at homes,help,low,general
+"But staff in CCIs are not small children nor do they stay there permanent, then a school has many children to warrant health officers to reach out many verses a CCI with less than 10 employees....watu wasiogope hii chanjo muhimu",greeting,low,general
+Poa! I was asking as individual ndio nijue and Thank you for the advice..... Blessed day,thanks,low,general
+Kindly note tomorrow at Shanzu Chief's office there will be Covid 19 vaccination drive,help,low,general
+"Hallo Kindly assist,my account is locked. Username - pmillicent",accountunlocking,medium,ict_support
+What is your email address?,Emailaccess,medium,ict_support
+Use email to reopen,Emailaccess,medium,ict_support
+pabwaoh@gmail.com,Emailaccess,medium,ict_support
+Email details updated in the system. Use forgot password functionality to reset your password.,upda,medium,data_registry
+"Hello Everyone , i have a qstn, if you stay long without loging in CPMIS then the password is no longer, how can i reactivate it?",passwords,low,ict_support
+Till they activate your account,ActivateDeactivate-account,medium,ict_support
+Just contact the incharge,help,low,general
+*BREAKING NEWS*‼,help,low,general
+*UNITED STATE GOVERNMENT JOB RECRUITMENT 2022*,help,low,general
+* SHELL OIL AND GAS JOB RECRUITMENT 2022*,help,low,general
+I also have that problem.... will communicate with our officer,help,low,general
+"Happy new month... Hallo, Kindly assist,my account is locked. Username - pmillicent",accountunlocking,medium,ict_support
+Dear all we will be doing technology upgrade on CPIMS functions that has been recently finalised.This implies that we will not be able to access the live system on 19th November 2022 please bear with us.This activity is to enhance CPIMSTechnology upgrade from python 2.7 to 3.10 and Django framework from 1.8.5 to 4.1,systemAcess,low,ict_support
+Mtu yoyote ameskia vacant ya kazi yoyote Mombasa please update me,upda,medium,data_registry
+The Children Act 2022-1.pdf (file attached),help,low,general
+"Good morning Officers, for all purposes of trainings either to the CCI's or any new officers within your organization units, you are requested to use the Test system ( test.cpims.net) but not the live system. For any assistance with the system please contact HQ CPIMS team.",LiveSystem,low,ict_support
+Basic agreed on rule of the group for a peaceful coexistence is that we only share CPIMS related posts in this group nothing else.,help,low,general
+Thank you for the add,thanks,low,general
+"OK will check again later, we've lost power anyway",help,low,general
+Hello CPIMS team. Your modems have been topped up with 3GB data bundles. Kindly each of you to confirm receipt. The last bundle top up from MEASURE Evaluation PIMA will be in August 2017.,greeting,low,general
+Ngolo and Joshua my account is locked. Have not been on net for a while.,accountunlocking,medium,ict_support
+Please unlock Japheth lumbasi kabete rehabilitation school,accountunlocking,medium,ict_support
+Password has been reset. Welcome,passwords,low,ict_support
+Thanks for bundle. We received.,thanks,low,general
+Please unlock Elizabeth Ndirangu at Nairobi Children's Remand Home,Childreninremand,high,case_management
+Team Nairobi this is to inform you sadly of the passing away of Mr Mwauras brother following a brain surgery. Mwaura has been supporting DCS in the development of CPIMS. Kindly let's condole with him. Thsnks,SiblingsInfomation,low,case_management
+This is very sad. Mwaura has given his brother all the support he could give but sadly the Lord opted for an earlier exit from this world. Mwaura you have us in prayers. May the good Lord continue to give you strength and courage in these trying times. We are together in all this.,SiblingsInfomation,low,case_management
+"My heartfelt condolences Mr.Mwaura, May the Almighty God provide strength and comfort for your family in this trying time.",help,low,general
+My condolences to yu Mwaura and the family. May the Lord's peace and comfort be your portion this trying moment.,help,low,general
+My condolences to you Mwaura and the family.May God comfort you at this time of sorrow.,help,low,general
+My condolences to you Mwaura and the entire family may God's Grace and peace be sufficient,help,low,general
+My condolences to Mr Mwaura and your family. May God give you strength and peace during this difficult moment,help,low,general
+Poleni Sana Mwaura and family. May God comfort you at this time.,help,low,general
+Pole sana for the loss.,help,low,general
+My condolescence to Your family Mr Mwaura.May the Lord comfort ur entire family,help,low,general
+Bwana Mwaura na familia nzima Mola wetu awape nguvu na amani mioyoni muhimili majonzi kwa kumpoteza mpendwa wenu. Mola hutupatia na wakati apendapo huchukua. Tulimpenda ndugu yetu lakini Mungu alimpenda zaidi.,help,low,general
+May Jesus be your strength brother Mwaura n give u the best shoulder to lean on always n especially now to overcome your grief.,SiblingsInfomation,medium,case_management
+Ooh pole sana Mwaura may the Almighty rest his soul in eternal peace,help,low,general
+Our condolences to the entire family.may his soul rest in eternal peace.,help,low,general
+Sincere condolences bwana Mwaura,help,low,general
+Pole sana mwaura,help,low,general
+"My heartfelt condolences to Mwaura and family for the untimely loss, may the lord grant you strength during this trying moments",help,low,general
+Dear all am sure your aware of the passing on of Mr Mwauras brother following a brain surgery. This is to further inform you that the burial will take place on Saturday 22nd July at gatanga sub county kuhumbuini location mukurwe thuita sublocation. Body will leave kenyatta university funeral home at 9am.Derrick Cheburet is in charge of contributions for the Mr Mwauras late brother. Transport arrangements are being made with Mr Ondogos guidance for those to attend the burial on Saturday.,SiblingsInfomation,low,case_management
+"Admin, please add SOS Children's village staff Nairobi: Fredrick Ochieng 0722862061 and Saitoti 0723 819958",help,low,general
+"Welcome SOS staff, the forum is for CPIMS related issues and queries forwards and posts NOT RELATED to CPIMS are not welcome",help,low,general
+Thank you so much for the warm reception,thanks,low,general
+My password is locked and kindly request that it be reset. Thank you,accountunlocking,medium,ict_support
+Pls activate Ann Dagoretti,ActivateDeactivate-account,medium,ict_support
+Please unlock Nancy Waswa Nairobi Children Rescue.,accountunlocking,medium,ict_support
+Please unlock javason saitoti from sos children's village,accountunlocking,medium,ict_support
+I have also not been unlocked. Please unlock Fredrick Ochieng,accountunlocking,medium,ict_support
+"Wow, thanks for the prompt response @254723637563",thanks,low,general
+Karibu sana @Loyce and Team Nairobi. Good evening to all you good people.,greeting,low,general
+Morning trust you are well. My question to the programmers.. Now that we have tool A and B for each constituency Will also create or give us mandates over administrative unit like in my ​case Mathare which now will generate it's own serial number since we have been combining all the cases in Starehe as the unit kindly advise thanks,sheets,low,data_registry
+"Hi, some help here......this Excel tool I've received still reads 2016, I thought it should be 2017 now... ?",sheets,low,data_registry
+"Loyce, the excel tool should read 2017/18. Please check your mail again.",sheets,low,data_registry
+Eh Loys. Looks like Derrick and Mbai wamezembea kazini... Anyway they are many subcounties one may slip through. I will check with him,greeting,low,general
+Tool A should still be the same,sheets,low,data_registry
+Brenta that was an oversight on your part. You should have separate tools for each subcounty that you serve.,help,low,general
+Curiously... Why are users still being locked out of CPIMS?,accountunlocking,medium,ict_support
+Hi i request Joshua to visit our office on Wednesday next week for clarification so that we can do the right thing. @J kindly confirm when you can visit Starehe good day,greeting,low,general
+"Hi Joshua, I have downloaded and rechecked even some of the other sub counties and still 2016",greeting,low,general
+Thanks Joshua we have talked,thanks,low,general
+Noted. We should take advantage of remote support using TeamViewer for quick assistance,thanks,low,general
+Haya Joshua kazi kwako,help,low,general
+"Am sorted, thanks Joshua.",thanks,low,general
+Kindly let me know the expiry date for bundles,help,low,general
+3rd August. If you have bundles to roll over then top up with 250 by 1st August to extend by another 30 days,help,low,general
+I have done the bundles,help,low,general
+Nairobi County confirm receipt of 3GB data bundles for the month of August 2017,help,low,general
+Remember this a forum for cpims related issues. Ana aje Loys?,help,low,general
+Yes please. That's irrelevant to our group.,help,low,general
+Watembo thanks for bundles. Is it the last one ama?,thanks,low,general
+You people should ask Wanjau whether he meant posting the Mzee here or it was by mistake.,help,low,general
+It was a mistake have a new phone that is a challenge it keeps on sending calls messsges i rarely send messages i dont even know,ChallengesOfStaff,medium,training_admin
+Pole it happens!,help,low,general
+Loise I think the profile photo should change en have a dashboard instead the sisal en CPIMS🤔🤔🤔,photos,low,data_registry
+I thought they were pineapples..,greeting,low,general
+Hi Team! kindly check your emails. Thanks,Emailaccess,low,ict_support
+"Sorry, is not meant for this team. I appologise",help,low,general
+Did and answered the questionnaire,help,low,general
+"Hi IT team, somebody set cmueni",greeting,low,general
+My a/c is locked,accountunlocking,medium,ict_support
+Kindly IT team I once again request for a reset of cmueni,notAbleToReset_Password,medium,ict_support
+"Morning team, Kindly reset Romolo.",notAbleToReset_Password,medium,ict_support
+Kindly set ckirui too,help,low,general
+"Dagoretti Girls rehabilitation, not yet received the bundles",genderissues,medium,case_management
+Clara.... it's time almost to renew bundles jameni. When asked to confirm kindly do so within 2 working days,help,low,general
+"I had put some bundles and more so, I have been using Airtel internet",help,low,general
+Ok. PIMA only supplies Safaricom to the official line,help,low,general
+"It's OK Mr Watembo, it's the safaricom line which I was talking about not the airtel one",help,low,general
+"Spinya is locked out ofcpim I need to enter data,help",accountunlocking,medium,ict_support
+spinya is reset.,notAbleToReset_Password,medium,ict_support
+My account also requested for account password reset am wondering coz its seems like it did so to many,passwords,medium,ict_support
+Passwords expire after 3 months. That's the policy. Remember you cannot use any of your last 3 pasdwords,passwords,medium,ict_support
+"Loyce, now tell us",help,low,general
+"A wrong is just a wrong this is not about me it's not my rules, the authors of this group set the rules on inception, I simply enforce. This is NOT a forum for forwards it's only CPIMS issues we have many others forums for such.",help,low,general
+"@254721935079 don't post such in this forum, observe our simple rule of engagement CPIMS ONLY",help,low,general
+Post the rules here Loyce.,help,low,general
+There's just one basic rules this is a group for CPIMS ENGAGEMENT AND NOT 'OTHER' FORWARDS,help,low,general
+"However, I seem to be the only always reminding us of this basic rule, being that the membership is over 50% new I propose we agree on new rules of engagement as well a new admin I don't wish to be almost always offending members.",help,low,general
+Leaders don't quit. You can remove those who persistently post irrelevant materials.,help,low,general
+We are team Nairobi. Let's continue to work together as a team and support our admin implement that simple requirement please. Thanks you and blessed day,thanks,low,general
+Just noted that am one of the admins. Now everybody follow rules. NO POSTING OF NON-CPIMS OR NON-ICT POLICY MATERIALS.,thanks,low,general
+Am trying to create an a/c for a person n its refusing,help,low,general
+Kindly reset ckyalo,notAbleToReset_Password,medium,ict_support
+That's true! So Loys don't b tired of reminding us. You know at times we are so eager to pass a good message and forget the rules of the forum,help,low,general
+ckyalo not yet reset,notAbleToReset_Password,medium,ict_support
+totally agree we have a lot in CPIMS that we can share like do you know we can monitor our daily performance and see how we are competing with other counties we don't have to wait until during recognition that we know who is the best,help,low,general
+I have reset ckyalo..,notAbleToReset_Password,medium,ict_support
+"Transfer norah ondiek from getathuru,Robbert mule from machakos,Francis irritating from muranga and John nderitu from nderitu to kabete rehabilitation school",help,low,general
+Oh so sorry. It happened accidentally! By a click of a button and it was gone!!!!!!!!!,help,low,general
+Please reset mtsuma,notAbleToReset_Password,medium,ict_support
+"I need to log in for data ,am locked out",accountunlocking,medium,ict_support
+Kindly reset pombasa,notAbleToReset_Password,medium,ict_support
+Kindly reset pinya ncpc,notAbleToReset_Password,medium,ict_support
+Kindly reset akangethe cpc,notAbleToReset_Password,medium,ict_support
+We have not received any information about it.,thanks,low,general
+Please fill the survey in the link attached in this message.,DataEntry,low,data_registry
+Please advise on who u have received we can easily know coz I know I filled en most probably it didn't get to you,thanks,low,general
+Which sub county or institution,help,low,general
+It was successful.,help,low,general
+maggieimunde@yahoo.com,help,low,general
+These are the responses we have received from Nairobi County.,thanks,low,general
+Mine refused to open. Will try again tomorrow,help,low,general
+"If the link asks for permissions ,please request and you will be assisted.",help,low,general
+"Guys av registered a case, done record sheet n wen I try to follow up it, there is no record!!!! I don't understand",Recordassess,medium,data_registry
+Do you see the case record check that first if it's there use the three names sometimes two names do not show results if u used three names to register the child,Recordassess,medium,data_registry
+Congratulations on your new assignment indeed was a pleasure working with you. All the best.,help,low,general
+Congratulations and thank you for the support we will really miss. Wishing you God's favor as you take over your new assignment.,thanks,low,general
+Congrats Ngolo it nice working with you. I pray for God's favor wherever you go,help,low,general
+We wish you the very best as you take up your new assignment.,help,low,general
+Kindly reset cmeres,notAbleToReset_Password,medium,ict_support
+Congratulations and thank you for the support .,thanks,low,general
+Congratulations are in order even as you take up your new assignment. Your services will be missed. I wish you the best in your new station,help,low,general
+Who is DMK pls. All the same congrats,help,low,general
+Am yet to do so but will also transferring my services to the Ministry of transport and Infrastructure state of department housing and urban development very soon.Of importance is that i will be available for any assistance and cosultalion any time to ensure smooth transition .,payments,medium,training_admin
+Kwani mwaenda wote? 🤔,help,low,general
+"All the best to you too, it was a pleasure to have worked with you. Pioneers.",help,low,general
+Wishing you all the best in the new assignment may you carry over the good work and don't forget home,help,low,general
+All the best to Ngolo and Mwaura in your new stations and thanks for your good work,thanks,low,general
+Kindly reset ckyalo,notAbleToReset_Password,medium,ict_support
+Do not reset it accepted after 15 mins,notAbleToReset_Password,medium,ict_support
+Wanjau you risk being removed from this site.,help,low,general
+Hi Joshua pls reset penina,notAbleToReset_Password,low,ict_support
+Its not intentional,help,low,general
+Gd evening...Transfer Vincent Makori Cpims account from Kisumu Rehabilitation school to Getathuru national Reception centre new station,createcpmisaccounts,medium,ict_support
+@254722164898 Add 0726796066 to this cpims forum,help,low,general
+Done. I realize he didn't even have an account,help,low,general
+"He is from kisumu rehab school , Mr. Naam is one who created his account",help,low,general
+@ Joshua. U were to sent the excel sheet which has no issues!!!!,sheets,low,data_registry
+Sorry Calvince. Will send by 930am today.,help,low,general
+Hi Joshua pls resent Margaret wambui,greeting,low,general
+Nairobi County confirm receipt of 3GB data bundles for the month of September 2017. Please note that PIMA will provide the last airtime by 30th September to cover for October 2017.,help,low,general
+Received i have enough to use till Dec,thanks,low,general
+Dagoretti Girls not yet received bundles,genderissues,medium,case_management
+Makadara received,thanks,low,general
+Kasarani pia bado,help,low,general
+Hi Joshua pls reset Margaret Westlands,notAbleToReset_Password,low,ict_support
+The internet connection is good,help,low,general
+Are you still having problems with access - I have connected without any issue,systemAcess,medium,ict_support
+Still not connecting will try later on.,help,low,general
+I have connected restart ua machine,help,low,general
+"Still having challenges accessing the CPIMS, kindly reset for me and Javason Saitoti",notAbleToReset_Password,medium,ict_support
+fochieng and jsaitoti reset.,notAbleToReset_Password,low,ict_support
+Thank you very much Joshua,thanks,low,general
+Please reset Veronica njiri,notAbleToReset_Password,medium,ict_support
+Transfer Mary Kazee from Nairobi Remand to Machakos remand and reset please,notAbleToReset_Password,medium,ict_support
+Pls unlock nnjuguna account,accountunlocking,medium,ict_support
+Pls admin add 0723374375 dagoretti rehab and 0727102509,help,low,general
+nnjuguna forgot password pls reset her account,passwords,medium,ict_support
+Kindly reset vigoki,notAbleToReset_Password,medium,ict_support
+Please reset Mkirera.,notAbleToReset_Password,medium,ict_support
+Hello Nairobi County. Please confirm receipt of 3GB data bundles for October 2017. Note that this is the last support from MEASURE Evaluation PIMA. It was nice working with you. You made CPIMS possible through your participation and active use of the system. Keep up the spirit as you work with the new partners.,greeting,low,general
+our MEASURE /PIMA we sincerely have no words to thanks you for your support. Together we gave haven't baby CPMIS walk soon he will run through out the country. Wish you well,thanks,low,general
+We have baby CPMIS walk point of correction,help,low,general
+Thanks PIMA we really appreciate your support from giving us skills en ensuring we have internet in our office thanks we really appreciate,thanks,low,general
+Many thanks. I will miss your great support and dedication. So who resets passwords.,passwords,low,ict_support
+Measure has done its part the onus is with us now to keep CPIMS fire burning.,help,low,general
+Dagoretti Girls not yet received,genderissues,medium,case_management
+Dagoretti Girls has not yet received the bundles,genderissues,medium,case_management
+Nairobi Children Rescue Centre we have not received bunndles.,addrescuecentre,low,data_registry
+Please check again. Hope Dagoretti SCCO didn't receive twice...,help,low,general
+"Thank you, now it's loaded",thanks,low,general
+Thank you confirmed we have received.Good day.,thanks,low,general
+I confirm receipt of the 3GB bundles for the Makadara Office.,help,low,general
+Getathuru have not yet received bundles,thanks,low,general
+And reset jkibue account it have be locked out,accountunlocking,medium,ict_support
+Please reset japheth lumbasi kabete rehab school,notAbleToReset_Password,medium,ict_support
+Am trying to set password in vain. Kindly assist,passwords,medium,ict_support
+@254713111570 did you manage to login using the reset password?,notAbleToReset_Password,medium,ict_support
+The account is now locked,accountunlocking,medium,ict_support
+"Halo, transfer Maureen Nyaga from Nakuru Remand to Nairobi Children Rescue Centre.",addrescuecentre,low,data_registry
+Please reset Judy Kibue Getathuru and I have forgotten my password,passwords,medium,ict_support
+Am using recent password but it not accepted and be locked out,accountunlocking,medium,ict_support
+Morning Judy. Your account has been reset.,notAbleToReset_Password,medium,ict_support
+The Presidential Digital Talent Programme (PDTP) 2017/2018 intake is now open,help,low,general
+"Good morning team, CPIMS system will be undergoing updates and will be unavailable for the whole day. We will inform you once the system is available tomorrow. Apologies for any inconveniences that may be caused.",upda,medium,data_registry
+"Good morning team. The system has now been upgraded to CPIMS Version 2 and is now available. Incase you have any challenges, please send your feedback on this forum. Good day.",ChallengesOfStaff,low,training_admin
+Joshua Hii I'd No. Kwa Njia was it really necessary on work force member recorded on paper,Recordassess,low,data_registry
+Persons registry imekataa this error,systemerror,low,ict_support
+"Invalid literal for int() with base 10:'undefined""",help,low,general
+Have tried three times getting the same error,systemerror,high,ict_support
+Got same problem but when you search again the child is actually saved in the system,help,low,general
+Thanks Margaret for the feedback. I encourage everyone to attempt creating a child and managing the cases. This will enable us pull out any challenges with the upgraded system.@254705037970 try the institutional functionalities and give feedback.,systemfunctions,low,ict_support
+But with no details for relatives ebu check engine update also,upda,medium,data_registry
+Check Again person details see if it's only my side loyce,help,low,general
+Please go to view child and screenshot the details of the child you attempted to enter earlier.,help,low,general
+"Not yours only, where there are siblings, they appear n view of person details but parents don't show despite having been attached.",SiblingsInfomation,medium,case_management
+This what I was talking about,help,low,general
+Something else even the in charge cannot view a child who was created by someone else under them or view a child see which Sub County they were created in,greeting,low,general
+For instance Maggie...you are not to view this child..,help,low,general
+Try to view Bryton Mutuku Simon created by m,help,low,general
+Please go to edit then attach the caregiver again. Check the CPIMS registered caregiver do not create new one.,personregistry,medium,data_registry
+After that save go go to view and share feedback.,help,low,general
+Other details yes but relative details still non,help,low,general
+Gladys is not in cpims registered caregivers do I add again,personregistry,medium,data_registry
+A minute I check the logs first.,help,low,general
+@254723637563 reset japheth lumbasi,notAbleToReset_Password,medium,ict_support
+Management perfect apart from spelling checker that has disappeared,help,low,general
+OK though the father was reflected humprey......,help,low,general
+Loyce have you succeeded am yet to,help,low,general
+Let us check first don't edit for now.,help,low,general
+Loyce what was the other name for the mother Gladys ?,help,low,general
+Did you use the option of attaching or you created a new one.,help,low,general
+Attaching sorry do I create,help,low,general
+No. Just a moment.,help,low,general
+Hi Loyce please edit for me your child Enoch and attach the mother Gladys then share feedback. Gladys has not been saved so far so just create her a fresh.,greeting,low,general
+Also assist m with the child Ibrahim Nyogonyo Odhiambo,help,low,general
+Please edit the child and create the parents a fresh. I need feedback from at least one person to be sure it's fixed.,help,low,general
+I want one officer to share feedback. Loyce / Maggie ?,help,low,general
+"Only the father is showing, but this father is a social worker worker in a cpims compliant cci in Athi River could be the reason he reflects",greeting,low,general
+Can you share specific details so that we check on it. Ie child A was created by person B but I person C can not view child A yet we all work for sub county D.,help,low,general
+"A child created by Rukia who is a deputy to Margaret, Margaret cannot view details of the child to know when the case was reported or recorded only Rukia can see",Recordassess,low,data_registry
+"This case was created by Margret-Embakasi, I am not able to view child details from my end.",help,low,general
+Admin add Zainabu 0722326112 Nairobi Children Rescue Centre.,addrescuecentre,low,data_registry
+"Morning, kindly add for us thika rescue center to the list of institution for we commit some of our children.",help,low,general
+Iko thika hiyo. We can't add a CCI from another station,help,low,general
+Sorry sikuona ni CPIMS group nimefikiria ni kasa ccis network,help,low,general
+Its the new data center that we will keep on monitoring.,help,low,general
+Am still concerned by the fact that I can't view a case that was recorded by someone else because names Cannot confirm a child we might end up with many double registration,Recordassess,low,data_registry
+For example if a case is referred to m from kibra if they have registered it's difficult for m to confirm because I can only see the names yet children share names,personregistry,low,data_registry
+The limitations on view has been removed. Please confirm if it is OK.,help,low,general
+Thanks Newton a minute let's confirm,thanks,low,general
+Perfect Newton thanks,thanks,low,general
+Kindly reset wnguiku n vigoki,notAbleToReset_Password,medium,ict_support
+CPIMS seems to be very slow today Kuna issue,help,low,general
+From the system side there is no problem and could be a network issue. Anyone else experiencing this please share your feedback.,help,low,general
+I think it was network,help,low,general
+Please reset Julius Ngala magodo,notAbleToReset_Password,medium,ict_support
+Hi kindly resent penina Westlands,greeting,low,general
+Kindly assist with the institutions tool A,sheets,low,data_registry
+Kindly reset romolo,notAbleToReset_Password,medium,ict_support
+Please send me the institutional register 2017,help,low,general
+sccoembakasi@gmail.com,Emailaccess,medium,ict_support
+Check your email. I have send.,Emailaccess,medium,ict_support
+Joshua pleeese reset penina!,notAbleToReset_Password,medium,ict_support
+In the system as a generate a social inquiry some information is missing i.e case history of the child and family background kindly advise,help,low,general
+The system is also not generating a referral also advise,help,low,general
+Please take a screenshot and share here..,help,low,general
+Good morning friends in Kasarani.,greeting,low,general
+Please reset cmeres,notAbleToReset_Password,medium,ict_support
+My password has refused.,passwords,medium,ict_support
+Password has been reset.,passwords,medium,ict_support
+I need help I still can't edit a case that was done by my predecessors so what do I do if it doesn't have all the information and I want to update,upda,medium,data_registry
+A pastor and his son story- A MUST READ,help,low,general
+Happy new year 2018 to the CPIMS team. We are experiencing some challenges with CPIMS and the technical team is working to rectify the situation. We will send an update once the issue has been sorted.Apologies for any inconvenience caused. Joshua Mbai,upda,medium,data_registry
+"Good afternoon team, the earlier reported issue with CPIMS has now been fixed. Incase you have any challenges, please communicate through this forum. Regards",ChallengesOfStaff,low,training_admin
+Son.vcf (file attached),help,low,general
+Hi Joshua. I am unable to register new child data. It's hanging. Your assistance please.,greeting,low,general
+Please take a screenshot and sent on this platform..,help,low,general
+I restarted my machine. It's working. Thanks.,thanks,low,general
+"Missing child of 8 years school at kasarani primary school special unit.she is autistic and cannot speak contact person 0704789000,0753364638",ChildSearch,low,case_management
+Morning trust all is well please reset my account Brenta starehe thanks,notAbleToReset_Password,low,ict_support
+Morning trust all is well please reset my account Brenta starehe thanks,notAbleToReset_Password,low,ict_support
+Hi someone please reset my account. Good day,notAbleToReset_Password,low,ict_support
+Kindly Joshua reset the password for Embakasi Sub-county office. Susan officer in charge.,passwords,medium,ict_support
+@254721501340 Please coordinate with the County office to have your account created. Thanks,thanks,low,general
+Forwarded as received,thanks,low,general
+The boy was found and reunited with his parents- from another forum ( missing child Kenya),ChildSearch,low,case_management
+Hi team I need help am trying to key in a child and the date paper form filled is active only to Dec 2011,greeting,low,general
+Hallo kindly reset my password thanks,passwords,low,ict_support
+Aki someone hear our cry. Starehe. Reset bmuli and gmbaya. We'll really appreciate.,notAbleToReset_Password,medium,ict_support
+Kindly reset wnguiku,notAbleToReset_Password,medium,ict_support
+Please reset Colilo,notAbleToReset_Password,medium,ict_support
+"Caro will do it now, sorry was in a meeting",help,low,general
+kindly reset japheth lumbasi,notAbleToReset_Password,medium,ict_support
+Please reset Colilo.,notAbleToReset_Password,medium,ict_support
+Hi guys my computer has crushed.Joshua and the team please come to my rescue,greeting,low,general
+Please the IT team I need your assistance. Kindly ignre my csll,help,low,general
+Good afternoon team please IT team we need your assistance at westlands children's office. Our computer crushed please HELP,greeting,low,general
+Kindly reset jmalova,notAbleToReset_Password,medium,ict_support
+kindly reset jlumbasi,notAbleToReset_Password,medium,ict_support
+"Hi Ann, Getathuru is in which county",greeting,low,general
+Thank you Lilian and team am now in Getathuru reception.,thanks,low,general
+Please reset mkirera.,notAbleToReset_Password,medium,ict_support
+mkirera has been reset.,notAbleToReset_Password,medium,ict_support
+Someone reset my password pls. gmbaya,passwords,medium,ict_support
+gmbaya has been reset.,notAbleToReset_Password,medium,ict_support
+Please unlock mtsuma,accountunlocking,medium,ict_support
+Please reset mkirera.,notAbleToReset_Password,medium,ict_support
+Kindly reset jkebenei,notAbleToReset_Password,medium,ict_support
+"Greetings members. I would like to introduce you to a digital platform to report crime alerts realtime for realtime response from security agencies. The platform is called mulika uhalifu and uses a short code 22068. You can save this code under mulika uhalifu. When you witness crime, quickly take your phone, go to messages, write the word Nairobi, then message, then your exact location, then send to the short code. Within seconds, you will receive a message informing you that your message will be relayed to authorities. All security agencies will receive your message and the ones nearest you respond to it within minutes. Your identity will be not be known by the security agencies. The message will only cost you one Bob.",crimereport,low,case_management
+thanks for the infor.,thanks,low,general
+CPIMS HQ team kindly send the reporting tools for Langata and Kibra for this financial year to teresa77ke@yahoo.com.,help,low,general
+Thought the tool is continuous have you tried 1st of July..,help,low,general
+"For tool A I guess it's possible to continue, as for tool B the last worksheet is on dictionary (defining counties) .",sheets,low,data_registry
+madam peninah lost her laptop during last week conference please let her check with kilimani ploice station to see if is among the recovered ones.,help,low,general
+Sure I will inform her once she is in the office,help,low,general
+"Hi all, there is an offer for Dcs officers for online 4weeks/6weeks deinstitutionalisation training by Lumos Foundation..if interested notify by sending your full names, duty county and email address on this forum by tomorrow evening..certificates will be provided on completion.",Emailaccess,low,ict_support
+Well you may include me pombasa2002@gmail.com from Kasarani sub county.,Emailaccess,medium,ict_support
+"Grace Kanana Mbaya. Starehe sub-county, grakam86@gmail.com",Emailaccess,medium,ict_support
+Comfort Karimi Gachoki. Westlands sub-county.,help,low,general
+Ann Kirugumi.... Getathuru National Reception Center. kirugumiann@gmail.com,Emailaccess,medium,ict_support
+Ogindo.vcf (file attached),help,low,general
+"Hi, kindly add Mr. Peter Ogindo the current head of CPIMS. thank you",thanks,low,general
+"Norah Ondieki, Kabete Rehabilitation School on die kin or she yahoo.com",help,low,general
+ondiekinorah@yahoocom,help,low,general
+Susan pinya helpline Westland s,help,low,general
+susanpinya@gmail.com,Emailaccess,medium,ict_support
+"Mary Kazee,Machakos children Remand",Childreninremand,low,case_management
+westlands sube county,help,low,general
+Admin kindly add Carol Meres,help,low,general
+Carol Meres.vcf (file attached),help,low,general
+Admin kindly add Mary Njuguna 0723374375 dagoretti girls rehabilitation school,genderissues,medium,case_management
+Zynabu Jepleting Kebenei. Nairobi Children Rescue Center. Kebeneizynabu@gmail.com,Emailaccess,low,ict_support
+Mary njuguna ..dagoretti girls rehabilitation school..mwaginar@yahoo.com,genderissues,medium,case_management
+Dagoretti sub county,help,low,general
+Kindly admin add Jane wachianga 0721487900 and Florence Juma 0727102509 Dagoretti girls rehabilitation school,genderissues,low,case_management
+"Include me Anne kerubo Nyamweya,kabete rehabilitation school,",help,low,general
+"Admin..thanks for adding me. Despite the challenges, lets strive to enter and manage cases. I ll post the status soon.",ChallengesOfStaff,low,training_admin
+JUDY KIBUE....... Getathuru Reception...... judykibue@yahoo.com,help,low,general
+@ Lilian kindly Reset Judy Kibue Account - Getathuru. Thanks,notAbleToReset_Password,low,ict_support
+Admi kindly rectify my email...it was mwagimar@yahoo.com,Emailaccess,medium,ict_support
+"Her Name is Mitchel!!! Around 3yrs. Was Found yesterday around Githurai44 by a Good Samaritan. She say her moms name is Ciiru and her gramma is Muthoni. Any one with information about her family, please visit Kasarani Childrens Office (Kasarani Police station) or Marurui police post.. Kindly share wide!!!!!! She has been referred to Kasarani by Marurui Police Post!!!! Please Share!!! Share!!! Share!!!! Help Mitchel find her Family!!!!!",ArrestedChildren,low,case_management
+Kindly someone reset gmbaya,notAbleToReset_Password,medium,ict_support
+Done-use default password,passwords,medium,ict_support
+Hi Lilian please reset bmuli,notAbleToReset_Password,low,ict_support
+We urgently require the excel tool A from all the sub counties. Respond,sheets,high,data_registry
+Sending for Makadara shortly,help,low,general
+We have only recieved tool A from starehe and embakasi. What could be the problem. Let each officer send or explain their challenge. This issue is critical.,sheets,high,data_registry
+I sent yesterday for makadara kindly confirm asap,help,low,general
+Please add Grace from Dagoretti to the group. She's currently incharge of the subcounty,help,low,general
+"So far we ve recieved for Embakasi, Starehe and Makadara",help,low,general
+Reset mkazee pliz,notAbleToReset_Password,medium,ict_support
+Done use default password:1234,passwords,medium,ict_support
+Westlands sub-county already sent.,help,low,general
+Hello Nairobi Team,greeting,low,general
+"we have looked at the 2017/18 Nairobi County Caseload in the system and noted with concerns, the differences between the excel tool caseload reporting and the caseload in the CPIMS. Some sub counties have nil entries running to many months. Please let all the SCCO take this seriously and ensure that all last years data is captured in the system even as we build the 2018/19 caseload in the system.",Population,high,data_registry
+"I have read the case load returns with surprise I personally sent the returns to ogindo, mbai and team and even giving the same in a memory stick to ogindo how come you write nil for kasarani could kindly recheck your systems. Your system has even forgotten Roysambu and Ruaraka please recheck and confirm maybe I may be wrong.",help,low,general
+"Hello Mr. Ombasa, Please note the difference; the caseload referred to here is CPIMS caseload. The one you gave us is excel tool Caseload ( manual caseload).",Population,low,data_registry
+Hello Peter does this data include case management or rather concluded cases or just entries in the system?,greeting,low,general
+"Hello Ruth, Please note that the caseload we have shared simply refers to cases created in to the system. Currently we are addressing availability of data into the system. we shall revert back to you in due course on issues of case management and data quality.",Population,low,data_registry
+But I don't have pending cases for those months as indicated above apart from management.,help,low,general
+2 contacts.vcf (file attached),help,low,general
+Kindly add to the group,help,low,general
+Morning trust all is well someone reset gmbaya Grace of Starehe account thanks,notAbleToReset_Password,low,ict_support
+"Going forward we have allocated specific officers to follow up on CPIMS data and offer support. For Nairobi, your officer Is Lilian Barasa",help,low,general
+Kindly reset wnguiku n vigoki,notAbleToReset_Password,medium,ict_support
+"Done, use default password 1234 and change",passwords,medium,ict_support
+Kindly reset Rukiah Abdi,notAbleToReset_Password,medium,ict_support
+"Done, use default password 1234 and change",passwords,medium,ict_support
+Ann Kirugumi - Getathuru Reception,help,low,general
+"Done, use default password 1234 and change",passwords,medium,ict_support
+Please reset Colilo,notAbleToReset_Password,medium,ict_support
+"Done, use default password 1234 and change",passwords,medium,ict_support
+"kindly reset Jgichuru,Pkogo,Fngamiah,Fireri and Nmoraa at kabete",notAbleToReset_Password,medium,ict_support
+rehabilitation school,help,low,general
+Hi Ogindo. Which caseload should we return? Tool A or B. The last time I checked you told me tool B will be phased out. Please clarify,Population,low,data_registry
+"Only Tool A for this financial year. sub county officers are to send their returns to the county. At the HQ, we expect all Tool As from the county sent at once.",sheets,low,data_registry
+"Done, use default password 1234 and change",passwords,medium,ict_support
+@Lilian kindly reset Ann Kirugumi Getathuru Recep. Thanks,notAbleToReset_Password,low,ict_support
+"Done, use default password 1234 and change",passwords,medium,ict_support
+"Good morning Admin,please add Pauline (0721811007) of HQ to this group.Regards",greeting,low,general
+Good morning colleagues and friends in Kasarani.,greeting,low,general
+"Hello Team Nairobi, Plse look at the CPIMS status report. The picture does not look good for a number of SCCO. By now we should have the same caseload within months as reflected in the excel tool in each sub county. Lets put more effort and clear the backlog within this quarter.",CPIMSstatusreport,low,ict_support
+The system keeps showing the above. Kindly advice,help,low,general
+"Good afternoon, kindly go above site and go through the data and see whether it's what you reported",greeting,low,general
+Please note it's data from Excel tool,sheets,low,data_registry
+Is this issue still appearing today as it is a browser problem and the error was customized yesterday to bring a user friendly page.,systemerror,low,ict_support
+Kindly reset Judy kibue Getathuru National Recep...thanks,notAbleToReset_Password,low,ict_support
+jkibue reset-use default password 1234,notAbleToReset_Password,medium,ict_support
+"kindly reset mkazee,machakos remand",notAbleToReset_Password,medium,ict_support
+mkazee reset-use default password 1234,notAbleToReset_Password,medium,ict_support
+"Its time to shift on how we look at ourselves and treat others;if we need to make just ONE resolution for year 2019 lets think about small things that matters most in life ""Appreciating what we can all do together without Malice and contradiction""-In life its not about who wins which argument but who wins whose soul in the eyes of God.Peaceful, stable year 2019-Ngacha Njeri.",help,low,general
+Kindlyreset wnguiku,notAbleToReset_Password,medium,ict_support
+Done -use default password 1234,passwords,medium,ict_support
+Hi. Lilian kindly reset akirugumi,notAbleToReset_Password,low,ict_support
+"Done, use default password 1234 and change",passwords,medium,ict_support
+Dear Lilian. Please forward the soft copy of the case record sheets.,Recordassess,medium,data_registry
+My email is waolilo@gmail.com.,Emailaccess,medium,ict_support
+Kindly check your email and confirm,Emailaccess,medium,ict_support
+Will check. Thanks in advance for your efficiency.,thanks,low,general
+Please reset Mkirera,notAbleToReset_Password,medium,ict_support
+"Done, use default password 1234 and change",passwords,medium,ict_support
+Kindly reset mkazee,notAbleToReset_Password,medium,ict_support
+"Done, use default password 1234 and change",passwords,medium,ict_support
+Kindly reset Akirugumi,notAbleToReset_Password,medium,ict_support
+"Done, use default password 1234 and change",passwords,medium,ict_support
+Thanks for the add,thanks,low,general
+Thank for the add Loise,help,low,general
+Thanks Loise for the add,thanks,low,general
+"Here are the caseloads for Nairobi County as at 4th March 2019. The shaded areas indicate months that have zero caseloads. Dagoreti (North + South) ,Langata (Kibra + Langata), Starehe and Westlands have made good progress. Other Sub county offices have huge backlogs that need to be managed as soon as possible.",Population,medium,data_registry
+Does this include institutions,help,low,general
+Here's the data for the institutions in Nairobi County,help,low,general
+Please focus on the totals at the bottom. The Grand Totals to the right of the screen represent the whole county.,help,low,general
+This had been confusing clarified thanks,thanks,low,general
+Kabete rehabilitation not in the list,help,low,general
+"My institution is no where because I have no one to do the CPIMS, most of Nairobi managers have not been trained too",onlinetraining,low,training_admin
+Hi admin kindly add Brenta back,greeting,low,general
+"Training s have been going but the staff concerned with data are never trained eg welfare staffs in institution ,others concerned with children data",onlinetraining,low,training_admin
+Please reset lanzigale on test.cpims.net,notAbleToReset_Password,medium,ict_support
+lanzigale-password reset done use default password 1234,notAbleToReset_Password,medium,ict_support
+Reset for Mkirera. Her phone not smart,notAbleToReset_Password,medium,ict_support
+Mkirera password reset done .use default password 1234.,notAbleToReset_Password,medium,ict_support
+Reset Ann Kirugumi - Getathuru,notAbleToReset_Password,medium,ict_support
+What your user name,help,low,general
+"Done,use default password 1234 and change",passwords,medium,ict_support
+"Good morning Team Nairobi,hope you are all well. We have noted that majority of the offices submitted the monthly caseloads using the old version of Tool A. Westlands , Makadara and Embakasi North SCCO's have the right tool. NB:The new Tool A has a column for Date of Birth.",DataSubmission,low,data_registry
+Kindly send me the latest version Joshua,help,low,general
+Kindly send the new version,help,low,general
+Please download the whole file and unzip,help,low,general
+Mbai please email to nzisabrenta@gmail.com,Emailaccess,medium,ict_support
+Kindly reset akirugumi - Getathuru. Thanks,notAbleToReset_Password,low,ict_support
+"Done, use default password 1234 and change",passwords,medium,ict_support
+"Afternoon, I am still expecting the team coming to the office?",help,low,general
+Kindly reset japheth lumbasi,notAbleToReset_Password,medium,ict_support
+"Now that phase 2 migration has toned down I have had the opportunity to go through the CPIMS live system and observed that most of you are up to date with the keying in of data. Kindly ensure accuracy, consistency and completeness of data.",LiveSystem,medium,ict_support
+That is great Madam Mary,help,low,general
+Remember issues of transfers in institutions,help,low,general
+Kindly reset jkebenei,notAbleToReset_Password,medium,ict_support
+Kindly reset jkebenei,notAbleToReset_Password,medium,ict_support
+jkebenei successfully reset use default password 1234 and change.,notAbleToReset_Password,medium,ict_support
+Reset mkazee please,notAbleToReset_Password,medium,ict_support
+Reset password successful use default password 1234 .then change password. Thanks,notAbleToReset_Password,medium,ict_support
+Admin kindly add Brenta back to the group,help,low,general
+"Goodevening Team Nairobi, here are the caseloads as entered into CPIMS.The shaded areas show months that no case has been entered by Sub COunty office.",Population,medium,data_registry
+Kasarani is doing poorly,help,low,general
+And here are the numbers from the respective Org units.,help,low,general
+"Hello team Nairobi, except for Embakasi and Kasarani, the county has made great effort in CPIMS. Kasarani's case is very worrying. What vould be the problem? We are coming to the close oc the financial year and all cases handled should be in the system. Let all offices clear the backlong and ensure that the CPIMS caseload mirrors those in the excell tool across all the months.CCCS plse monitor",sheets,low,data_registry
+Kasarani is working round the clock to see that we are upto date but the biggest question in the house. When did you ever train amy officer in kasarani we are just struggling.,accountunlocking,medium,ict_support
+For continuity please add madam annisiah 0721481632,help,low,general
+vigoki done use default password 1234 and change.,passwords,medium,ict_support
+Resent penina kanyithia,help,low,general
+"Done, use default password 1234 and change",passwords,medium,ict_support
+Dear Team Nairobi. Below is a screenshot of the cases entered into the CPIMS Main system as at today. All offices will backlogs should prioritize reducing these as soon as possible.,AddmissionDelays,high,data_registry
+"Embakasi North,Kasarani and Makadara have proportionately higher backlogs compared to the other offices.",AddmissionDelays,low,data_registry
+Above are the caseloads for the Statutory Institutions already using the system.,Population,medium,data_registry
+"Morning Joshua, this noted.",thanks,low,general
+Hello... Kindly reset Lanzigale,notAbleToReset_Password,low,ict_support
+Where is ruaraka,help,low,general
+Ruaraka has zero cases for the reporting period and therefore was not included in the pivottable.,help,low,general
+"Joshua, looks like something is wrong let me call you back in a moment",help,low,general
+"Done, use default password 1234 and change",passwords,medium,ict_support
+Seriously n dangerously floating on this wall.Naskia kama watu hapa wanaongea greek🤣🤣.Hope somebody is planning some very detailed CPIMS trainings for my case n others.,onlinetraining,high,training_admin
+"As they hear your cry, may mine be heard too",greeting,low,general
+We are alive to cases of officers who have not been in Nairobi. They shall be trained as soon as we get the opportunity. Your cries have been heard. Kindly be patient.,onlinetraining,low,training_admin
+Please reset Judy kibue Getathuru,notAbleToReset_Password,medium,ict_support
+"Done, use default password 1234 and change",passwords,medium,ict_support
+"For those who are interested in Monitoring and Evaluation, kindly click on this link to join",help,low,general
+Kindly reset wnguiku and vigoki,notAbleToReset_Password,medium,ict_support
+Hi! Someone reser my password pls. gmbaya,passwords,low,ict_support
+"wnguiku, vigoki, Done, use default password 1234 and change",passwords,medium,ict_support
+"gmbaya, done use default password 1234 and change",passwords,medium,ict_support
+What should I do coz I can't remember old password for vigoki and wnguiku?,passwords,medium,ict_support
+Put 1234 as your old password,passwords,medium,ict_support
+Please transfer Maureen murugi Nyaga from Nakuru remand to Nairobi rescue and reset her password,passwords,medium,ict_support
+"Done, use default password 1234 and change",passwords,medium,ict_support
+Thanks for the shift response,thanks,low,general
+We been trying to work on cpims since morning its not working what would be the issue,systemerror,high,ict_support
+"We are having a technical challenge with the system, once it’s sorted, you will be notified",ChallengesOfStaff,medium,training_admin
+"The system is back, up and running, you can now proceed",help,low,general
+Thanks we are in,thanks,low,general
+Please give us permission to view children so that we can tell if its the same child to avoid duplication,recurringcases,low,case_management
+This is in person registry,personregistry,low,data_registry
+Please reset Susan and Rukiah,notAbleToReset_Password,medium,ict_support
+-done use default password 1234 and change.,passwords,medium,ict_support
+"Dear Team, please find the caseloads as entered in CPIMS for the period January 2019 todate.We are all encouraged to sustain the efforts in data entry.",DataEntry,medium,data_registry
+Institutions hakuna,help,low,general
+Am not able to log in to CPIMS.. Could there be a problem or it's just my computer....,login,medium,ict_support
+"OK, probably internet problems",help,low,general
+Please reset Ewangui,notAbleToReset_Password,medium,ict_support
+"Done, use default password 1234 and change",passwords,medium,ict_support
+Good morning.Admin kindly add our new clerical officer who will be doing CPIMS for Kasarani Sub County Children's office.Mercy Bore 0720671349.,greeting,low,general
+"Dear All, please find the caseloads for the respective offices . Highlighted cells indicate months with zero cases in the system. Offices that have zero cases for the period between July 2018 todate have not been included in the list.",Population,low,data_registry
+Clarifications on embakasi north july 8th data for dec 18.feb.mar n apr 19 resent to joshua and so jan 19 resent to the above address the july was forwarded from a mail sent the cco and amongst others derrick may june also forwarded,help,low,general
+@254722466987 this is CPIMS data not Excel. Thanks for sending the excel files.,sheets,low,data_registry
+We have been problems with cpims as far as logging is concerned,complaint,medium,case_management
+Hello. IT Team pls reset gmbaya and bmuli,notAbleToReset_Password,low,ict_support
+"Done, use default password 1234 and change.",passwords,medium,ict_support
+Pls reset wnguiku vigoki,notAbleToReset_Password,medium,ict_support
+"Done, use default password 1234 and change",passwords,medium,ict_support
+Plse reset pmakori -Getathuru,notAbleToReset_Password,medium,ict_support
+Please reset pmakori from Getathuru,notAbleToReset_Password,medium,ict_support
+"Good evening friends and colleagues,",greeting,low,general
+Kindly reset Francis nyaga Fnyaga and Japheth Lumbasi Jlumbasi,notAbleToReset_Password,medium,ict_support
+Kabete rehabilitation,help,low,general
+Kindly reset Jlumbasi live site want to admit children,notAbleToReset_Password,low,ict_support
+Done. Use 1234 as default password. Sorry for the delay,passwords,medium,ict_support
+"Dear Team Nairobi, please find below caseloads for the respective County and Subcounties for the period between July 2019 and to date. The offices with zero data have not been included in the report. The shaded cells indicate months with zero cases. We are all encouraged to work on our backlogs and ensure we are all up to date.",Population,medium,data_registry
+Contact for kasarani sub county officer,help,low,general
+Hi kindly reset matati from Nairobi children's court.,notAbleToReset_Password,low,ict_support
+"Done, use default password 1234 and change.",passwords,medium,ict_support
+"Embakasi North ,Kasarani and Roysambu jameni kuna shida gani?",help,low,general
+We can support if there is a problem,help,low,general
+"Ochieng, I thought you had Ombasa's no. We have a problem with Kasarani on isdues of data.",help,low,general
+CPIMS has been updated today 05 October 2019 at 1900hrs. Check out for the following;,upda,medium,data_registry
+Hi kindly reset matati from Nairobi children's court again am still unable to log in.,notAbleToReset_Password,low,ict_support
+Reset done use default password 1234 and change.,notAbleToReset_Password,medium,ict_support
+Kindly reset wnguiku,notAbleToReset_Password,medium,ict_support
+"Done, use default password 1234 and change",passwords,medium,ict_support
+Reset ckirui in the live system,notAbleToReset_Password,medium,ict_support
+"Done, use default password 1234 and change.",passwords,medium,ict_support
+"I have been locked out, kindly reset once more",accountunlocking,medium,ict_support
+Unlocked and reset login,accountunlocking,medium,ict_support
+CPIMS UPGRADE - 26TH-OCT-2019,help,low,general
+We urge all users to test the developed features above and give feedback,systemfunctions,medium,ict_support
+Dear Team Nairobi. We have noted that Embakasi North and Kasarani offices have backlogs from March and January 2019 respectively. All other offices are working on their Sep and October caseloads which is commendable.Let me know if there is any area that we can support to clear the backlog for Embakasi North and Kasarani to clear the backlogs.,Population,low,data_registry
+Joshua could you please see if you can assist kasarani I am still on leave,leavedays,low,training_admin
+Embakasi is on an an RRI despite challenges of only having one functional machine,systemfunctions,low,ict_support
+CPMIS head can we get someone technician to check on our machine any referrals please. Thanks it's actually collapsing only one is functioning. Will appreciate Joshua,systemfunctions,low,ict_support
+Nairobi handles a lot of data almost all machines are not working. At Nyayo House the computer is not working. There is need to capacity build the county to manage data. Other counties handling far less data were included in donour support. Am not complaining but humbly stating that we really need to prioritise according to needs and that is how we can achieve credible Results that will take this dpt forward.,systemerror,low,ict_support
+It is true Mary and nairobi is the core of CPIMS.We are looking at it .,help,low,general
+Thank you Ochieng for your understanding.,thanks,low,general
+MWENDO is coming to Nairobi,help,low,general
+It is here with us. I work in the mwendo.,help,low,general
+"Good morning, please reopen my account, it has been locked. Madam Penina Sub-county Westlands",accountunlocking,medium,ict_support
+Also to include lack of manpower and internet bundles actually we are running the program from our pockets.,help,low,general
+What is user name,help,low,general
+This is the biggest challenge,ChallengesOfStaff,low,training_admin
+"Done, use default password 1234 and change",passwords,medium,ict_support
+Reset Jlumbasi Kabete rehabilitation,notAbleToReset_Password,medium,ict_support
+Kindly reset wnguiku,notAbleToReset_Password,medium,ict_support
+Thanks madam for the add,thanks,low,general
+Hello Kindly reset Comfort Karimi,notAbleToReset_Password,low,ict_support
+What is your username?,help,low,general
+"Done, use default password 1234 and change",passwords,medium,ict_support
+mwambui and cgachoki reset done.,notAbleToReset_Password,medium,ict_support
+mmbuga reset done use default password 1234 and change.,notAbleToReset_Password,medium,ict_support
+Please reset Susanouma and Rukiah Embakasi,notAbleToReset_Password,medium,ict_support
+souma reset done use default password 1234 and change,notAbleToReset_Password,medium,ict_support
+rabdi reset successful use default password 1234 and change.,notAbleToReset_Password,medium,ict_support
+pombasa reset done use default password 1234 and change.,notAbleToReset_Password,medium,ict_support
+Hi kindly resent mwambui westlands,greeting,low,general
+Done reset with default password 1234 then change to your desired password.,notAbleToReset_Password,medium,ict_support
+Hi kindly reset my password Mboore Kasarani.,passwords,low,ict_support
+Reset done use default password 1234 and change.,notAbleToReset_Password,medium,ict_support
+"Dear Team Nairobi,",help,low,general
+"Happy New Year Team CPIMS, please find attached below a screenshot of CPIMS caseload as at today.",Population,medium,data_registry
+"Good afternoon colleagues,",greeting,low,general
+"Thank you Mr.Ombasa and we appreciate your cordial working relationship that you incubated,cultivated and projected beyond obvious reasons.It was equally exciting and great pleasure working with you in Kasarani.All the best in your new endevour.",thanks,low,general
+"Welcome Loice ,we will se a change in data entry as a TOT",DataEntry,low,data_registry
+🤣🤣🤣🤣 karibu sana Loyce,greeting,low,general
+Welcome Loyce good to have you as part of the Nairobi team.,help,low,general
+"Team CPIMS , we are conducting checks on the quality of data entered into CPIMS. We have filtered out cases of boys with child pregnancy cases for the current FY. Please fix the issue by editing the details of the case for the affected offices.",genderissues,low,case_management
+"Team CPIMS , we are conducting checks on the quality of data entered into CPIMS. We have filtered out cases of boys with child pregnancy cases for the current FY. Please fix the issue by editing the details of the case for the affected offices.",genderissues,low,case_management
+Hello. Someone kindly reset bmuli and gmbaya,notAbleToReset_Password,low,ict_support
+Send their email addresses,Emailaccess,medium,ict_support
+starehedco@gmail.com,Emailaccess,medium,ict_support
+grakam86@gmail.com,Emailaccess,medium,ict_support
+Martha kindly help my out. Am not able to access it.,systemAcess,medium,ict_support
+Your email is already set. Use the forgot password functionality to reset your password.,passwords,medium,ict_support
+Your email is already set. Use the forgot password functionality to reset your password.,passwords,medium,ict_support
+Your email is already set. Use the forgot password functionality to reset your password.,passwords,medium,ict_support
+Thanks too Martha for guiding me through the process. It went through.,thanks,low,general
+Kindly reset my password ..Mboore,passwords,medium,ict_support
+Kindly send your email address,Emailaccess,medium,ict_support
+mutuguni@gmail.com,Emailaccess,medium,ict_support
+"Your email is already set. When log in at the dashboard, Use the forgot password functionality to reset your password.",passwords,medium,ict_support
+I need to be moved to Kasarani,help,low,general
+Unable to access my old password.kindly assist,passwords,medium,ict_support
+Already moved to Kasarani,help,low,general
+Thanks for the assistance.,thanks,low,general
+"Hi, I need password reset.... loysanzigale@gmail.com",passwords,low,ict_support
+"Your email is already set. When log in at the dashboard, Use the forgot password functionality to reset your password.",passwords,medium,ict_support
+Kindly reset my password jkibue email judykibue@yahoo,passwords,medium,ict_support
+Your email was set so use the forgot password functionality to self reset.,passwords,medium,ict_support
+Kindly reset password for Susan and Rukiah,notAbleToReset_Password,medium,ict_support
+Please circulate the forwarded circular to relevant people in your circle.,help,low,general
+"Dear All, we have finalized the PASSWORD RESET functionality on CPIMS. This has allowed many of us to reset their passwords. We kindly request all CPIMS users to assist in the following;",passwords,low,ict_support
+This document offers a step-by-step guide to resetting your password and updating both organizations and personal details.,passwords,low,ict_support
+Hi trust we are doing well.,greeting,low,general
+Kindly reset wnguiku,notAbleToReset_Password,medium,ict_support
+"Good morning Mr Wanks,",greeting,low,general
+I have a new email the previous one crashed,systemerror,high,ict_support
+"I have checked your Email address details not included,",Emailaccess,medium,ict_support
+wanjaunguiku@yahoo.com,help,low,general
+Details updated. You can now proceed to self reset.,upda,medium,data_registry
+"Karibu wanjau ,Your sub couty doesnot have any data since july 2019",greeting,low,general
+"Good morning Team CPIMS,below are the caseloads on CPIMS as at today.We thank you for continued data entry during these times.",DataEntry,low,data_registry
+Kindly reset for me password,passwords,medium,ict_support
+My user name is Jkebenei,help,low,general
+I have tried but no link has been send to my email,Emailaccess,medium,ict_support
+What is your Email address?,Emailaccess,medium,ict_support
+Kebeneizynab@yahoo.com,help,low,general
+Email details updated. Your can now reset your account.,upda,medium,data_registry
+Kindly reset Susanouma and Rukiah Abdi,notAbleToReset_Password,medium,ict_support
+Kindly use forgot password functionality to reset your account.use Rukiash@yahoo.com the email address configured in the system. Thank you,passwords,low,ict_support
+And suzatie@yahoo.com,help,low,general
+Hope you managed.,help,low,general
+Yes thanks Sammie,thanks,low,general
+Is the Child protection temporary unavailability. Have been trying since Jana and that the response.,help,low,general
+It is being sorted,help,low,general
+Brenta you can do it youself in the cpims,help,low,general
+Follow the following steps to do self reset.,notAbleToReset_Password,medium,ict_support
+"Hi,I tried to reset my password.....but email not forthcoming. What could be the reason?",passwords,low,ict_support
+What's your username?,help,low,general
+And Email address?,Emailaccess,medium,ict_support
+Your account is still showing you are working in Webuye East and West Sub county. What is your current station?,help,low,general
+"🤦‍ Nairobi, Dagoretti sub county",help,low,general
+"Done, use forgot password functionality to reset your account.",passwords,medium,ict_support
+"Hello team, kindly refresh my memory.",greeting,low,general
+Hi Liz yes. Start at 1,greeting,low,general
+Thanks so much for the help. God bless you,thanks,low,general
+Kindly assist me to reset password it is not accepting my email,notAbleToReset_Password,medium,ict_support
+What is your username?,help,low,general
+What is your email address?,Emailaccess,medium,ict_support
+peninamk02@gmail.com or westlandsscco@gmail.com,Emailaccess,medium,ict_support
+Your username in the system is pkanyithia,help,low,general
+Hi Lillian the system is not accepting this email. Kindly assist,Emailaccess,low,ict_support
+What is the message or share your screenshot.,help,low,general
+There was an error processing your request. Contact admin,systemerror,high,ict_support
+Try again. Last login was Feb 2020.,login,medium,ict_support
+Goodevening team CPIMS. Below is an update on the status of CPIMS data entry as at today.Let us all work towards finalizing the backlogs by 15th July 2020.,upda,medium,data_registry
+Data from the Children Court has not been forthcoming.,help,low,general
+"Team Nairobi, we are missing data from Mathare and Roysambu Subcounties. Let me know if we need help on these.",missinginformation,medium,data_registry
+"Hi Joshua, our system only indicated Starehe Sub County capturing both Mathare and starehe",DataEntry,low,data_registry
+Joshua we've talked about this before. Maybe you can consider creating Mathare now that another year is starting and Mathare has its own physical office.,help,low,general
+That will be fine,help,low,general
+Thank you for the add,thanks,low,general
+"Team CPIMS,hope you are well. As you work on the backlogs on CPIMS. Please take note of common data entry mistakes that involve age and Sex variables. An example is girls aged below 10 years with child pregnancy cases. Or Boys with child marriage or child pregnancy cases. Let us all partner in enhancing the quality of data in CPIMS. Thanks All",genderissues,medium,case_management
+"Hi Joshua, sorry for this. Will look into it and revert",greeting,low,general
+Haiyaa. Will look into this and revert. Sorry,help,low,general
+"Dear Team CPIMS,I wish to thank everyone for the efforts in working on the caseloads for the last FY. Below are the caseloads by office and sub-county. Please confirm that these are all the cases received for the previous financial Year.",Population,medium,data_registry
+"Embakasi north,mathare,ruaraka,roysambu and westlands any challange?",help,low,general
+"Cases for Mathare are captured under starehe. In this financial year the system only had starehe as the reporting office, but going forward Joshua has created Mathare as an organization unit since we have a physical office and in the system we will capture cases reported at Mathare. What had requested Joshua is to map one of us as the workforce.",help,low,general
+Roysambu and Ruaraka had not been created as org units and therefore all cases were reflecting under Kasarani.. But I talked to Newton and he corrected that as to why cases don't reflect I don't know... but the cases are entered separately per Sub-County,help,low,general
+Hi Joshua thanks for the updates however for westlands that's not correct. The data I forwarded to the county office doesn't have any gaps,upda,medium,data_registry
+"Joshua, do we still fill tool A. I think you enter data into the system Penina.",DataEntry,low,data_registry
+"Morning @254722835809, we discontinued Tool A in January.We no longer require anyone to submit that.",sheets,low,data_registry
+No Mary tool A was discontinued in june 2020.,sheets,low,data_registry
+"Yes, coz like Penina stated some subcounties still submit to my Office.",help,low,general
+"Thanks ,they should put their energy in entering data directly into the CPIMS.",greeting,low,general
+"Dear Team CPIMS, I wish to thank everyone for the efforts made in entering data into CPIMS.We have done some preliminary analysis on the proportion of cases that are still pending or open between July 2019 and todate. Let us try and fill data related to interventions especially for the period July 2019-June 2020.",help,low,general
+Data has been populated based on Organizational units(not subcounties),help,low,general
+"Good afternoon Team CPIMS, As we strive to improve the quality of data entered into CPIMS , we have pulled out the CPIMS ID's of cases of children that have ages above 24 years. Please confirm that the ages indicated are right and correct for cases that have wrong DoB in the system. Please raise alert incase you have challenges with account rights to edit the case details. Please confirm receipt of this message.",ChallengesOfStaff,low,training_admin
+We have cases of children aged -1 years and upto 41 years.,help,low,general
+You mean date of birth later than when case was reported,help,low,general
+"Dear Team CPIMS. Today marks the last day of Q1 of FY 2020/21. Henceforth, we shall compile the final Caseload data for the last FY 2019/20. Below is a screenshot of the available data on CPIMS for the period July 2019-June 2020. Please confirm that you have completed data entry for the last FY. The data is based on Sub counties(not offices).Missing subcounty names mean that we have zero cases for that period on the system.",DataEntry,medium,data_registry
+We are all encouraged to enter all missing information for the last FY as soon as possible. Intervention rates should be ideally below 10% (3 months later).,missinginformation,medium,data_registry
+Below is a screenshot of the pending and open cases by month. This should help in follow-up and management. Please confirm receipt of these messages.,help,low,general
+"Goodmorning, Am trying to log into CPIMS but am unable.Kindly assist.",login,medium,ict_support
+What's your email address?,Emailaccess,medium,ict_support
+When did you lastly log in to CPIMS,login,medium,ict_support
+nancywaswa@yahoo.co.uk,help,low,general
+Yes thats my email.,Emailaccess,medium,ict_support
+The account is active and if you have forgotten the password use the email address above to reset it using the reset password functionality.,notAbleToReset_Password,medium,ict_support
+Good-afternoon Team CPIMS. Please find below a screenshot of the caseloads for each office between Jan 2020 and to-date. Months with zero cases are highlighted. Subcounty Children offices with zero cases have been omitted from the report. Thanks everyone for the efforts.,Population,low,data_registry
+"*Dear All,* today marks my last working day with the CPIMS project. Its been 4 years of growth and fulfillment. I wish to thank everyone for the support acorded as we collectively worked towards rollout and perfecting of the system.",help,low,general
+Thanks alot for the great support. Wishing you the very best in your endeavours,thanks,low,general
+Joshua you have really supported the CPMIS train and I hope all will be well. Wishing you a blessed time thank you.,thanks,low,general
+Thank you for your time and support towards CPIMS. All the best in your endeavors. Happy and prosperous 2021.,thanks,low,general
+Thank You so much for your valuable time on the project and happy New Year.,thanks,low,general
+Thank you for your support. Indeed it has been a journey. I wish you well in your future endeavours.,thanks,low,general
+"Thank you Joshua. It was a pleasure working with you. May you climb many more hills of prosperity and joy. To some of us, you remain a friend. Happy New year to you and your family.",thanks,low,general
+Thankyou so much Joshua for the support and input in getting CPIMS this far. God bless you in your next endevour.,help,low,general
+Blessed happy new year to all of us.,help,low,general
+It was a pleasure working with you Joshua. your approachable nature made your expertise available to us.,help,low,general
+God bless you Josh. Happy New year,help,low,general
+"Happy new year 2021. May the Lord watch over us and protect us. We claim His mercies, peace and restoration.",help,low,general
+"Dear ones, as we close the year 2020. Let's forget the hustles, bustles and baggages of the past and look unto Jesus the Author and Finisher of our Faith. Blessed 2021 in Jesus name!",help,low,general
+May God bless the year 2021.,help,low,general
+"Enjoy one, Full of Health, Hope and Goodness.2021!",help,low,general
+Hello Team CPIMS. Happy new year.,greeting,low,general
+Kindly reset wnguiku and vigoki,notAbleToReset_Password,medium,ict_support
+Please use reset password,notAbleToReset_Password,medium,ict_support
+"We are planning to merger CPIMS DCS and CPIMS USAID/USG data sets from 8th to 12th February, 2021. CPIMS will not be avaliable and link will be inactive for the mentioned dates. Please inform all Officers and partners in your counties.This merger and upgrade is meant to enhance a better CPIMS that is able to cordinate child protection activities in the country. Please contact CPIMS TEAM in case of any clarification.",help,low,general
+"Dear CCCO, CPIMS is back and the merger process has been sucesfull.Please communicate to all the officers that they can now continue to register and manage cases.We are also working on training for the officers on USG component od CPIMS .Thank you for your patient.",onlinetraining,low,training_admin
+The system rejects the submit button kindly assist,help,low,general
+Please reset vigoki and wnguiku,notAbleToReset_Password,medium,ict_support
+Use forgot password link to reset your account.,passwords,medium,ict_support
+Response. There was error processing your request. Please contact adm,systemerror,high,ict_support
+The system is indicating operatoonal error,systemerror,high,ict_support
+Kindly reset ondieki Norah.,notAbleToReset_Password,medium,ict_support
+"Hi, reset nowadays is done through forgot password function, edit his details to ensure you capture his email address...then on the log in page let him select forgot password....and follow prompts...if it does not work.....seek experts advice",passwords,low,ict_support
+"Hi Norah is now under westlands sub county and not kabete rehab ,please confirm change of station",greeting,low,general
+Yes am now under westlands subcounty not Kabete rehab.,help,low,general
+Hi thanks for you advice though that's where I begun unless there's some error with the details keyed,systemerror,low,ict_support
+Its usually not a system error but user problem for accounts that have not logged in within the last 90 days(3 months).,login,low,ict_support
+Yes I agree thats the problem with this account,help,low,general
+"Goodmorning,Kindly reset Nancy Wasawa.",notAbleToReset_Password,medium,ict_support
+"Sorry,it's a misplaced",help,low,general
+Account inactive; Last login: 2021-Mar-01; Last password change: Never,passwords,medium,ict_support
+Account been activated use the set email teclachepngeno40@.... to login.,login,medium,ict_support
+I mean to reset the password.,passwords,medium,ict_support
+Hi good people I'm unable to change my password word. The message I'm getting is I contact the admin. Someone help me,passwords,low,ict_support
+What is your username?,help,low,general
+VURUGU MAPPER LINK,help,low,general
+"[08/10, 10:37] Mercy Katila: Training Evaluation",onlinetraining,low,training_admin
+Training evaluation,onlinetraining,low,training_admin
+Thanks Loyce for the add,thanks,low,general
+Kindly add Juliet,help,low,general
+0714355910 Steve and 0729998105 Sheila from Dagoretti,help,low,general
+Juliet 0725855299,help,low,general
+"[08/10, 10:37] Mercy Katila: Training Evaluation",onlinetraining,low,training_admin
+Please fill the feedback form,DataEntry,medium,data_registry
+Please add the following officers from Starehe,help,low,general
+Elizabeth Children Office Mathare.vcf (file attached),help,low,general
+Add the following officers from Makadara,help,low,general
+Chemtai Children Officer Starehe.vcf (file attached),help,low,general
+Bruno Children Officer Mathare.vcf (file attached),help,low,general
+Caroline Children Officer Starehe.vcf (file attached),help,low,general
+Susan Oduor Office.vcf (file attached),help,low,general
+Eunice Thuku Office.vcf (file attached),help,low,general
+"Dear All, please find the above CPIMS user manual guide, you can also access the same in audio form from the learning portal. www.learning.childprotection.go.ke.",usermanual,low,training_admin
+learning.childprotection.go.ke,help,low,general
+3 contacts.vcf (file attached),help,low,general
+Kindly add the following officers from Langata and Kibra Sub Counties,help,low,general
+"Dear All, please find the above CPIMS user manual guide, you can also access the same in audio form from the learning portal. learning.childprotection.go.ke.",usermanual,low,training_admin
+"Dear CCCO,Kindly provide the information urgently meeded belowby close of bussiness monday ,18th October 2021.Ensure that all officers under you are properly captured as per the attached excel template provided.This data is to be sent to kariukic21@gmail.com and copied to watotoidara@gmail.com",Emailaccess,high,ict_support
+"Morning all, kindly take note that you can be able to reset your passwords using the functionality highlighted above and follow the instructions given thereafter. however for those who have not used the system for over three months or those who can remember the email used when creating the account can contact their supervisors or the admni.",passwords,low,ict_support
+SCCO Please create CPIMS accounts for the children officers in your sub countries,createcpmisaccounts,medium,ict_support
+We trained the officers and they should be using CPIMS,onlinetraining,low,training_admin
+Noted Mr Ochieng.,thanks,low,general
+"Children officer makadara, please inbox",Emailaccess,low,ict_support
+Good afternoon kindly check on account I can't log in. I have tried to change the password but the message I'm getting is I contact the admin,passwords,medium,ict_support
+What your username?,help,low,general
+It's now okay. Use forgot password functionality to reset your password.,passwords,low,ict_support
+Good afternoon. All the cases iam doing in the CPMIS are giving only one case serial number. CCO/47/289/5/29/61. The last six digits are not displayed for the five cases I have done. Kindly help.,greeting,low,general
+Just proceed with the data entry and check if the next case has the serial number proceeding to next. Most probably you have a duplication issue.,DataEntry,medium,data_registry
+Av done eight cases and the serial number remains as stated earlier.,help,low,general
+try logging out then re-logging in to the system,help,low,general
+"Good morning , I forgot my CPIMS password kindly assist",passwords,low,ict_support
+Use forgot password to reset the password,passwords,medium,ict_support
+Good morning kindly assist to reset password my new email address is maolevaliso@gmail.com,notAbleToReset_Password,medium,ict_support
+Done. Use forgot password functionality to reset your account.,passwords,medium,ict_support
+"Good morning colleagues,",greeting,low,general
+Kindly reset Jlumbasi am logged out,notAbleToReset_Password,medium,ict_support
+I have tried to use email but is is not processing,Emailaccess,medium,ict_support
+Kindly add 0799411879,help,low,general
+"Hi , I am trying to reset my password , I have submitted my email address but it is indicating 'there was an error processing request.contact admin '",passwords,low,ict_support
+The email addrress is the correct one . Try to reset again,notAbleToReset_Password,medium,ict_support
+"Good morning , waiting for reset email",notAbleToReset_Password,low,ict_support
+Soduor is my username,help,low,general
+I am Susan Oduor,help,low,general
+"Try it now ,It should be working",help,low,general
+No email in my inbox,Emailaccess,medium,ict_support
+You have forgoten your password,passwords,medium,ict_support
+I have forgotten and submitted my email,Emailaccess,medium,ict_support
+"Do it afresh ,your e mail was not well defined",help,low,general
+Too young to forgot password,passwords,medium,ict_support
+"Makadara ,makadara,makadara is not doing well",help,low,general
+"Dear CCCO,Listed above are some CPIMS issues for your attention Gender incompatible cases ,Missing interventions and age inapropriate cases.Let the SCCO correct them using CPIMS ID .Regards",genderissues,medium,case_management
+Hello. I request to be mapped back to Starehe from Mathare.,greeting,low,general
+Mapped back to starehe children subcounty,help,low,general
+"Hello,I forgot my old password and the system is requesting me to change my password.please help",passwords,low,ict_support
+Log out then use the forgot password functionality.,passwords,medium,ict_support
+What your user name and email address,Emailaccess,medium,ict_support
+teclachepngeno40@gmail.com,Emailaccess,medium,ict_support
+Kindly assist in password reset,passwords,medium,ict_support
+Officer in Starehe kindly,help,low,general
+"Good afternoon,first is the appreciation of your efforts in data entry.Below find the county report from Jan-March 2022.For counties that have not yet updated their data please do so.",upda,medium,data_registry
+Morning the CPIMS sys from my side isn`t working.,help,low,general
+can someone kindly assist.,help,low,general
+We are working round the clock to return to live.We have been off due to migration and updates,upda,medium,data_registry
+My account has refused to login & I have been locked out. My *Username:* Vowiti,accountunlocking,medium,ict_support
+Kindly assist me.,help,low,general
+"Your account is now active, use forgot functionality to reset your password.",passwords,medium,ict_support
+Thanks... I tried using that but it kept telling me to contact admin. Thanks alot. All good right now.,thanks,high,general
+Hi am not able to access my cpmis account,systemAcess,low,ict_support
+"Good morning, first and foremost I do appreciate your efforts in data entry. Below is the CPIMS County Caseload report for FY 2021/2022 (1st July 2021 to 20th June 2022). For the Sub County offices with backlogs please update your data with immediate effect.",upda,medium,data_registry
+"Good morning, I am trying to reset my password in the CPIMS but the system is saying 'error processing your request contact admin'",passwords,low,ict_support
+"Your account is now active, use forgot password functionality to reset your password",passwords,medium,ict_support
+Am also not able to log in,login,medium,ict_support
+Make sure you are using the correct email address,Emailaccess,medium,ict_support
+makadaradco@gmail.com,Emailaccess,medium,ict_support
+My Name is BRIAN SIRO from Njiru scco can you please reset my cpims password my email is sirobrian7@gmail.com,Emailaccess,medium,ict_support
+Thank you...kumbe I was typing the wrong one,thanks,low,general
+"Good afternoon colleagues,",greeting,low,general
+"Morning colleagues, please confirm with your Cpvs whether they have received airtime from PLAN.",CPVs,high,case_management
+Hi they have not received yet,greeting,low,general
+Hi.. some have received and others not yet,thanks,low,general
+Hi from Makadara non has received,greeting,low,general
+None has received. Kibra,thanks,low,general
+No none from njiru,help,low,general
+"@CPIMS admins, kindly reset my cpims password. My Name is Julister Nyaboke from Njiru SCCO",passwords,medium,ict_support
+I am unable to login to CPIMS. kindly assist. When I click on forget password the email I am giving is being rejected,passwords,medium,ict_support
+"Morning colleagues, I understand the airtime was sent. Please confirm. Thank you",thanks,low,general
+What is your username?,help,low,general
+"Your account is now active, use forgot password functionality to reset your password.",passwords,medium,ict_support
+Please resent Mwambui,help,low,general
+Thanks for the add,thanks,low,general
+Good afternoon. Do you mean airtime for election exercise ? I haven't received yet.,greeting,low,general
+None of them has received so far @254713730393,thanks,low,general
+Non of my CPVs has received.,CPVs,high,case_management
+Username: eokello,help,low,general
+"Done, use forgot password functionality to reset your account.",passwords,medium,ict_support
+The following CPV never got bundles no. 0700318088 Danson Mureithi,CPVs,low,case_management
+None of my CPVS received the bundles as at this evening,CPVs,low,case_management
+Kindly share the vurugu mapper numbers,help,low,general
+"1. 0728956714 Janefiver,",help,low,general
+1. 0700280324 Elvina,help,low,general
+IMG-20220829-WA0003.jpg (file attached),help,low,general
+Good afternoon Team.. our cpims is generating thr same seriap number. What could be the issue?,greeting,low,general
+Check your browser. Try updating and try again.,upda,medium,data_registry
+"Morning Cpms crew, The system is displaying Internal server. kindly assist.",help,low,general
+Good morning.. same on my sidep,greeting,low,general
+1. 0700280324 Elvina,help,low,general
+CPV Njiru have not received their bundles. Kindly do something about it.,CPVs,low,case_management
+The following CPV never got bundles no. 0700318088 Danson Mureithi Starehe the rest got.,CPVs,low,case_management
+Thanks for the add,thanks,low,general
+@254713730393 the following CPVs from Kibra reported that they received some airtime on their *personal mobile phone numbers* but didn't know where the airtime came from:,CPVs,high,case_management
+They say that the airtime was deposited directly from safaricom,greeting,low,general
+How much did they receive,greeting,low,general
+"1,000. sent as 500 twice",systemerror,high,ict_support
+"my account mwambui has an issue,kindly assist",help,low,general
+"It's now active, use forgot password functionality to reset your account.",passwords,medium,ict_support
+Well noted thanks,thanks,low,general
+"Good morning. I'm trying to access CPIMS but I'm getting a 503 error ""Service Unavailable""",systemAcess,medium,ict_support
+Since yesterday.. had the same problem too,help,low,general
+The problem lasted for how long?,help,low,general
+Had been for about 20 minutes when I reached out but it seems to be back online now. Thank you,thanks,low,general
+"Hi CPIMS team, I have forgotten my password (for TEST ) I am not able to remember the email address I used to register.",passwords,low,ict_support
+Good morning @254722166058 @254711193001 kindly assist,greeting,low,general
+"Done, use forgot password functionality to reset your account.",passwords,medium,ict_support
+I tried yestersay resetting via this email but it refused.,notAbleToReset_Password,low,ict_support
+I can't be able to access my account even after using the reset button... It tells me to get I to touch with ADMIN.,notAbleToReset_Password,medium,ict_support
+"It's now active, use forgot password functionality to reset your password.",passwords,medium,ict_support
+Bismarck Aminga Workmate.vcf (file attached),help,low,general
+Also these CPVs from Makadara are yet to receive their airtime bundles,CPVs,high,case_management
+Are there those who have received? Mine haven't received,thanks,low,general
+They are yet to receive ndio nawaulizia,greeting,low,general
+We are following on the airtime with plan International. There were some challenges with service providers.,ChallengesOfStaff,medium,training_admin
+For the vurugu mapper app. It could be the cpvs changes password to use pin .so the must remember the pin.,passwords,medium,ict_support
+It seems the app is slow .Will follow on that too.,help,low,general
+Good afternoo Martha I would like to report that we lost one of our CPVs Philomena Kavilo Kioko from Dandora. The office managed to get the phone but we were unable to recover it's charger. Shall we return the phone to you people?,CPVs,low,case_management
+Sorry about that,help,low,general
+Dear all we will be doing technology upgrade on CPIMS functions that has been recently finalised.This implies that we will not be able to access the live system on 19th November 2022 please bear with us.This activity is to enhance CPIMSTechnology upgrade from python 2.7 to 3.10 and Django framework from 1.8.5 to 4.1,systemAcess,low,ict_support
+"Good afternoon colleagues, first and foremost, we appreciate your efforts in data entry, below is the CPIMS County caseloads report for 1st quarter FY 2022/2023 (1st July 2022 to 31st October 2022). For the sub-county offices with backlogs please update your data with immediate effect.",upda,medium,data_registry
+IMG-20221123-WA0014.jpg (file attached),help,low,general
+The Children Act 2022-1.pdf (file attached),help,low,general
+Unaweza toka around 5.15 instead of 5 Kuna vituko zinaendelea hapa,help,low,general
+Sorry that was not meant for here,help,low,general
+"Good morning Officers, for all purposes of trainings either to the CCI's or any new officers within your organization units, you are requested to use the Test system ( test.cpims.net) but not the live system. For any assistance with the system please contact HQ CPIMS team.",LiveSystem,low,ict_support
+IMG-20221225-WA0000.jpg (file attached),help,low,general
+"Hello, could someone please reset my account.",notAbleToReset_Password,low,ict_support
+"Your username in the system is rndung'u,use forgot password functionality to reset your account.",passwords,medium,ict_support
+Morning colleagues please admin reset my account Mondieki Westland Sub County,notAbleToReset_Password,medium,ict_support
+Hi please use reset password,notAbleToReset_Password,medium,ict_support
+Good morning? I seem to have forgotten my password and efforts to reset via forgot password is not working. Kindly assist,passwords,low,ict_support
+IMG-20230207-WA0002.jpg (file attached),help,low,general
+"Good afternoon colleagues, first and foremost, we appreciate your efforts in data entry, below is the CPIMS County caseloads report FY 2022/2023 (1st July 2022 to 9th February, 2023). For the sub-county offices with backlogs please clear with immediate effect.",DataEntry,medium,data_registry
+Please respond to this too. Thanks,thanks,low,general
+"I have activated your account,use forgot password functionality to reset your password",passwords,medium,ict_support
+"Dear Team Wajir, please feel free to reach out to any of the CPIMS Hq team that shall offer support on CPIMS.",help,low,general
+Please share your account.,help,low,general
+Forgot pasward kindly assist.sahara.wajir north,help,low,general
+"Your Username is :smohamed, Reset done use default password 1234 and change.",notAbleToReset_Password,medium,ict_support
+"Happy New Year Team CPIMS, please find attached below a screenshot of CPIMS caseload as at today.",Population,medium,data_registry
+For wajir west and eldas have been using the old model of tool A. have no training on CPMIS hence become a challenge.,sheets,low,data_registry
+We are in the process of de-commisioning Excel too A so we nee to prioritive live data entry,LiveSystem,medium,ict_support
+Please circulate the forwarded circular to relevant people in your circle.,help,low,general
+"Dear All, we have finalized the PASSWORD RESET functionality on CPIMS. This has allowed many of us to reset their passwords. We kindly request all CPIMS users to assist in the following;",passwords,low,ict_support
+This document offers a step-by-step guide to resetting your password and updating both organizations and personal details.,passwords,low,ict_support
+"Good morning Team CPIMS,below are the caseloads on CPIMS as at today.We thank you for continued data entry during these times.",DataEntry,low,data_registry
+Hi Mr Mbai. It seems eldas and wajir west are not featured. Kindly do something,systemfunctions,low,ict_support
+"Hi Jillo, it means that Eldas and Wajir West have zero cases as from July 2019.",greeting,low,general
+Wajir doing badly here,help,low,general
+The officer manning the two has never undergone cpims training,onlinetraining,low,training_admin
+I will do something sir,help,low,general
+Am the officer manning the stations i took the office in October 2019 and i raised the concern here.,complaint,medium,case_management
+Will purpose to do something with your guidance.,help,low,general
+Goodevening team CPIMS. Below is an update on the status of CPIMS data entry as at today.Let us all work towards finalizing the backlogs by 15th July 2020.,upda,medium,data_registry
+Niko hapa Sir. I have brought the issue to the attention of my officers and we are fastracking it. Two of my subcounty children officers have not received training on CPIMS and that imposes limitation on our capacity to feed the data into the system. We are hoping to finish by 15th july 2020.,onlinetraining,low,training_admin
+Amina welcome to the forum and introduce yourself to the members.,help,low,general
+"Thank you sir, am AMINA Mohamed Tarbaj Sub-county co-ordinator, am happy to join my colleagues",thanks,low,general
+"Team Wajir, we are missing data for Eldas and Wajir West. Please update on the offices that work on these cases.",upda,medium,data_registry
+"Both are manned by one officer based at Giriftu,wajir west. He was transfered here last financial year and has never been trained on CPIMS.",onlinetraining,low,training_admin
+He is Mr. Chebon Abdalla.,help,low,general
+We can provide Mr. Chebon with materials to help him get onboard even as an opportunity for trained is sought.,onlinetraining,low,training_admin
+I acknowledge that the data for wajir west and eldas have not been entered in CPIMs but they are up to date in tool A format.putting in CPIMS has been a challenge because of the reason mr jillo and i earlier raised.,sheets,low,data_registry
+I will appreciate Mr mbai for that.,help,low,general
+How do i get the materials,systemfunctions,medium,ict_support
+If I don't have password how could I log in.,passwords,medium,ict_support
+Have you ben created,help,low,general
+Good morning Team CPIMS. Hope you are well. As you work on the backlogs on CPIMS. Please take note of common data entry mistakes that involve age and Sex variables. An example is girls aged below 10 years with child pregnancy cases. Or Boys with child marriage or child pregnancy cases. Let us all partner in enhancing the quality of data in CPIMS. Thanks All,genderissues,medium,case_management
+"Dear Team CPIMS,I wish to thank everyone for the efforts in working on the caseloads for the last FY. Below are the caseloads by office and sub-county. Please confirm that these are all the cases received for the previous financial Year.",Population,medium,data_registry
+This is my subcounty.The mistake has been noted however is not deliberate bt error in typing.keeness and counter check of data wl be observed in future.,systemerror,low,ict_support
+Tarbaj one case in a financial year.Do we need an officer in that station really.,help,low,general
+I was currently posted there since 2019 December but not trained for the CPIMS,onlinetraining,low,training_admin
+"Dear Team CPIMS, I wish to thank everyone for the efforts made in entering data into CPIMS.We have done some preliminary analysis on the proportion of cases that are still pending or open between July 2019 and todate. Let us try and fill data related to interventions especially for the period July 2019-June 2020.",help,low,general
+Data has been populated based on Organizational units(not subcounties),help,low,general
+"Dear Team CPIMS. Today marks the last day of Q1 of FY 2020/21. Henceforth, we shall compile the final Caseload data for the last FY 2019/20. Below is a screenshot of the available data on CPIMS for the period July 2019-June 2020. Please confirm that you have completed data entry for the last FY. The data is based on Sub counties(not offices).Missing subcounty names mean that we have zero cases for that period on the system.",DataEntry,medium,data_registry
+We are all encouraged to enter all missing information for the last FY as soon as possible. Intervention rates should be ideally below 10% (3 months later).,missinginformation,medium,data_registry
+I cant see for Eldas and Wajir West.,help,low,general
+Subcounties that are missing have zero cases in the system.,help,low,general
+Below is a screenshot of the pending and open cases by month. This should help in follow-up and management. Please confirm receipt of these messages.,help,low,general
+"Hi colleagues. To address the challenge we are having in CPIMS due to lack of technical knowhow on the part of some of our officers,I have made a request for support to a local partner organization which has accepted to support the training on CPIMS. This is meant to address the gap and improve reporting of cases in Wajir county where some officers were never trained on CPIMS. Thanks",onlinetraining,low,training_admin
+Good-afternoon Team CPIMS. Please find below a screenshot of the caseloads for each office between Jan 2020 and to-date. Months with zero cases are highlighted. Subcounty Children offices with zero cases have been omitted from the report. Thanks everyone for the efforts.,Population,low,data_registry
+Thz forum will be vibrant and looking forward the success and its existence for betterment of our children protection data.,help,low,general
+"*Dear All,* today marks my last working day with the CPIMS project. Its been 4 years of growth and fulfillment. I wish to thank everyone for the support acorded as we collectively worked towards rollout and perfecting of the system.",help,low,general
+Its been great pleasure for working with you. Wish you goodluck. Wish you happy and a prosperous new year.,help,low,general
+Hello Team CPIMS. Happy new year.,greeting,low,general
+"We are planning to merger CPIMS DCS and CPIMS USAID/USG data sets from 8th to 12th February, 2021. CPIMS will not be avaliable and link will be inactive for the mentioned dates. Please inform all Officers and partners in your counties.This merger and upgrade is meant to enhance a better CPIMS that is able to cordinate child protection activities in the country. Please contact CPIMS TEAM in case of any clarification.",help,low,general
+"Dear CCCO, CPIMS is back and the merger process has been sucesfull.Please communicate to all the officers that they can now continue to register and manage cases.We are also working on training for the officers on USG component od CPIMS .Thank you for your patient.",onlinetraining,low,training_admin
+"Dear All, please find the above CPIMS user manual guide, you can also access the same in audio form from the learning portal. learning.childprotection.go.ke.",usermanual,low,training_admin
+Thx for sharing,help,low,general
+"Morning all, kindly take note that you can be able to reset your passwords using the functionality highlighted above and follow the instructions given thereafter. however for those who have not used the system for over three months or those who can remember the email used when creating the account can contact their supervisors or the admni.",passwords,low,ict_support
+"good morning , first is to appreciation your effort in data entry. below find the county OVC count report from jan2021-october 2021.for the sub counties that have not yet updated their data please do so as well as with November data.",upda,medium,data_registry
+"Good morning, first and foremost I do appreciate your efforts in data entry. Below is the CPIMS County Caseload report for FY 2021/2022 (1st July 2021 to 20th June 2022). For the Sub County offices with backlogs please update your data with immediate effect.",upda,medium,data_registry
+"Good morning colleagues,",greeting,low,general
+Dear all we will be doing technology upgrade on CPIMS functions that has been recently finalised.This implies that we will not be able to access the live system on 19th November 2022 please bear with us.This activity is to enhance CPIMSTechnology upgrade from python 2.7 to 3.10 and Django framework from 1.8.5 to 4.1,systemAcess,low,ict_support
+"Good afternoon colleagues, first and foremost, we appreciate your efforts in data entry, below is the CPIMS County caseloads report for 1st quarter FY 2022/2023 (1st July 2022 to 31st October 2022). For the sub-county offices with backlogs please update your data with immediate effect.",upda,medium,data_registry
+IMG-20221123-WA0007.jpg (file attached),help,low,general
+The Children Act 2022-1.pdf (file attached),help,low,general
+"Good morning Officers, for all purposes of trainings either to the CCI's or any new officers within your organization units, you are requested to use the Test system ( test.cpims.net) but not the live system. For any assistance with the system please contact HQ CPIMS team.",LiveSystem,low,ict_support
+"Good afternoon colleagues, first and foremost, we appreciate your efforts in data entry, below is the CPIMS County caseloads report FY 2022/2023 (1st July 2022 to 9th February, 2023). For the sub-county offices with backlogs please clear with immediate effect.",DataEntry,medium,data_registry
